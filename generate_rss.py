@@ -41,13 +41,29 @@ from bs4 import BeautifulSoup
 # ============================================================
 CONFIG = {
     "base_url": "https://www.mincmistr.cz",
-    "blog_url": "https://www.mincmistr.cz/blog/",
-    # Vzor pro stránkování — {n} bude nahrazeno číslem stránky (2, 3, ...)
-    "pagination_url": "https://www.mincmistr.cz/blog/strana-{n}/",
-    "feed_title": "Mincmistr.cz — Blog",
+    # Odkaz uvedený v <link> elementu feedu
+    "feed_link": "https://www.mincmistr.cz/blog/",
+    # Zdroje článků — skript stáhne z každého, spojí je a seřadí podle data.
+    # `url` = první stránka výpisu, `pagination_url` = vzor pro stránkování
+    # ({n} se nahradí číslem stránky 2, 3, ...).
+    "sources": [
+        {
+            "name": "Blog",
+            "url": "https://www.mincmistr.cz/blog/",
+            "pagination_url": "https://www.mincmistr.cz/blog/strana-{n}/",
+        },
+        {
+            "name": "Tipy a triky",
+            "url": "https://www.mincmistr.cz/tipy-triky/",
+            "pagination_url": (
+                "https://www.mincmistr.cz/tipy-triky/strana-{n}/"
+            ),
+        },
+    ],
+    "feed_title": "Mincmistr.cz — Blog a tipy",
     "feed_description": (
-        "Články o mincích, bankovkách, historii a sběratelství "
-        "z blogu Mincmistr.cz."
+        "Články o mincích, bankovkách, historii a sběratelství, "
+        "tipy a triky ze světa numismatiky — z Mincmistr.cz."
     ),
     "feed_language": "cs-cz",
     "output_path": "feed.xml",
@@ -58,8 +74,9 @@ CONFIG = {
     ),
     "request_timeout": 20,
     "delay_between_requests": 0.3,
-    # Maximální počet stránek stránkování, které načteme
-    "max_pages": 4,
+    # Maximální počet stránek stránkování na jeden zdroj
+    # (10 článků/stránka × max_pages × počet zdrojů = horní limit načtených)
+    "max_pages": 2,
 }
 
 # Selektor karty článku v Shoptet blog listingu (mincmistr.cz šablona)
@@ -321,12 +338,12 @@ def build_rss(articles: list[Article]) -> str:
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{escape(CONFIG['feed_title'])}</title>
-    <link>{escape(CONFIG['blog_url'])}</link>
+    <link>{escape(CONFIG['feed_link'])}</link>
     <description>{escape(CONFIG['feed_description'])}</description>
     <language>{CONFIG['feed_language']}</language>
     <lastBuildDate>{now}</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
-    <atom:link href="{escape(CONFIG['blog_url'])}feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{escape(CONFIG['feed_link'])}feed.xml" rel="self" type="application/rss+xml" />
 {items_xml}
   </channel>
 </rss>
@@ -347,41 +364,62 @@ def main() -> int:
     all_articles: list[Article] = []
     seen: set[str] = set()
 
-    # Stáhni první stránku + další podle potřeby, až dosáhneme limitu
-    for page_num in range(1, CONFIG["max_pages"] + 1):
-        if page_num == 1:
-            url = CONFIG["blog_url"]
-        else:
-            url = CONFIG["pagination_url"].format(n=page_num)
+    # Iteruj přes všechny zdroje (Blog, Tipy a triky, ...)
+    for source in CONFIG["sources"]:
+        name = source.get("name", source["url"])
+        print(f"\n══ Zdroj: {name} ══")
+        source_count = 0
 
-        print(f"▶ Stránka {page_num}: {url}")
-        try:
-            page_articles = fetch_page_articles(session, url, args.verbose)
-        except requests.HTTPError as e:
-            if e.response is not None and e.response.status_code == 404:
-                print(f"  stránka neexistuje, končím stránkování")
+        # Pro každý zdroj projdi stránkování
+        for page_num in range(1, CONFIG["max_pages"] + 1):
+            if page_num == 1:
+                url = source["url"]
+            else:
+                url = source["pagination_url"].format(n=page_num)
+
+            print(f"▶ Stránka {page_num}: {url}")
+            try:
+                page_articles = fetch_page_articles(
+                    session, url, args.verbose
+                )
+            except requests.HTTPError as e:
+                if (
+                    e.response is not None
+                    and e.response.status_code == 404
+                ):
+                    print(f"  stránka neexistuje, končím stránkování")
+                    break
+                print(
+                    f"  ❌ HTTP chyba {e.response.status_code if e.response else '?'}: {e}",
+                    file=sys.stderr,
+                )
                 break
-            raise
-        except requests.RequestException as e:
-            print(f"  ❌ chyba stahování: {e}", file=sys.stderr)
-            break
+            except requests.RequestException as e:
+                print(f"  ❌ chyba stahování: {e}", file=sys.stderr)
+                break
 
-        added = 0
-        for art in page_articles:
-            if art.link in seen:
-                continue
-            seen.add(art.link)
-            all_articles.append(art)
-            added += 1
+            added = 0
+            for art in page_articles:
+                if art.link in seen:
+                    continue
+                seen.add(art.link)
+                all_articles.append(art)
+                added += 1
+                source_count += 1
 
-        print(f"  nových článků: {added} (celkem: {len(all_articles)})")
+            print(
+                f"  nových článků: {added} "
+                f"(celkem ze zdroje: {source_count}, "
+                f"celkem všeho: {len(all_articles)})"
+            )
 
-        if len(all_articles) >= args.limit:
-            break
-        if added == 0:
-            break
-        if CONFIG["delay_between_requests"] > 0:
-            time.sleep(CONFIG["delay_between_requests"])
+            if added == 0:
+                # Stránkování se vyčerpalo (nebo neopakuje nic nového)
+                break
+            if CONFIG["delay_between_requests"] > 0:
+                time.sleep(CONFIG["delay_between_requests"])
+
+        print(f"  ↳ ze zdroje {name}: {source_count} článků")
 
     if not all_articles:
         print(
