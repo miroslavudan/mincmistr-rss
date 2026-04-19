@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mincmistr.cz — Blog</title>
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství z blogu Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 19 Apr 2026 08:25:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 08:34:57 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,140 +16,200 @@
       <link>https://www.mincmistr.cz/blog/augustus--muz--ktery-promenil-rim-v-cisarstvi/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/augustus--muz--ktery-promenil-rim-v-cisarstvi/</guid>
       <pubDate>Tue, 14 Apr 2026 16:20:43 +0000</pubDate>
-      <description>Když roku 44 př. n. l. padl Gaius Julius Caesar pod dýkami spiklenců na zasedání senátu v Curii Pompeia, jeho vrazi věřili, že zachraňují republiku. V...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_octaviana_k_augustovi_muz____ktery___prome__nil_r__i__m_v_ci__sar__stvi__.png" alt="" /><p>Když roku 44 př. n. l. padl Gaius Julius Caesar pod dýkami spiklenců na zasedání senátu v Curii Pompeia, jeho vrazi věřili, že zachraňují republiku. V...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_octaviana_k_augustovi_muz____ktery___prome__nil_r__i__m_v_ci__sar__stvi__.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_octaviana_k_augustovi_muz____ktery___prome__nil_r__i__m_v_ci__sar__stvi__.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_octaviana_k_augustovi_muz____ktery___prome__nil_r__i__m_v_ci__sar__stvi__.png" />
     </item>
     <item>
       <title>Albrecht z Valdštejna: Mocný šlechtic s královskými ambicemi?</title>
       <link>https://www.mincmistr.cz/blog/albrecht-z-valdstejna--mocny-slechtic-s-kralovskymi-ambicemi/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/albrecht-z-valdstejna--mocny-slechtic-s-kralovskymi-ambicemi/</guid>
       <pubDate>Sun, 12 Apr 2026 19:13:32 +0000</pubDate>
-      <description>Málokterá postava českých a středoevropských dějin vyvolává tolik rozporuplných reakcí jako Albrecht z Valdštejna. Vojevůdce, podnikatel, budovatel mě...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_z_valds__tejna_mocny___s__lechtic_s_kra__lovsky__mi_ambicemi-1.png" alt="" /><p>Málokterá postava českých a středoevropských dějin vyvolává tolik rozporuplných reakcí jako Albrecht z Valdštejna. Vojevůdce, podnikatel, budovatel mě...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_z_valds__tejna_mocny___s__lechtic_s_kra__lovsky__mi_ambicemi-1.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_z_valds__tejna_mocny___s__lechtic_s_kra__lovsky__mi_ambicemi-1.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_z_valds__tejna_mocny___s__lechtic_s_kra__lovsky__mi_ambicemi-1.png" />
     </item>
     <item>
       <title>Ferdinand II.: Cena za vítězství na Bílé hoře</title>
       <link>https://www.mincmistr.cz/blog/ferdinand-ii-cena-za-vitezstvi-na-bile-hore/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/ferdinand-ii-cena-za-vitezstvi-na-bile-hore/</guid>
       <pubDate>Thu, 09 Apr 2026 14:26:21 +0000</pubDate>
-      <description>Když se roku 1578 v Grazu ve Štýrsku narodil budoucí císař Ferdinand II. Habsburský, Evropa navenek ještě držela pohromadě. Jenže pod povrchem zdánliv...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_ii._cena_za_vi__te__zstvi___na_bi__le___hor__e.png" alt="" /><p>Když se roku 1578 v Grazu ve Štýrsku narodil budoucí císař Ferdinand II. Habsburský, Evropa navenek ještě držela pohromadě. Jenže pod povrchem zdánliv...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_ii._cena_za_vi__te__zstvi___na_bi__le___hor__e.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_ii._cena_za_vi__te__zstvi___na_bi__le___hor__e.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_ii._cena_za_vi__te__zstvi___na_bi__le___hor__e.png" />
     </item>
     <item>
       <title>Ježíš Kristus: Kazatel z Galileje, který změnil svět</title>
       <link>https://www.mincmistr.cz/blog/jezis-kristus--kazatel-z-galileje--ktery-zmenil-svet/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/jezis-kristus--kazatel-z-galileje--ktery-zmenil-svet/</guid>
       <pubDate>Sun, 05 Apr 2026 07:58:38 +0000</pubDate>
-      <description>Kdo byl Ježíš Kristus? Odpověď závisí na tom, koho se zeptáte – teologa, historika, nebo sběratele starověkých mincí. Pro každého z nich má ta otázka ...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jez__i__s___kristus_kazatel_z_galileje__ktery___zme__nil_sve__t.png" alt="" /><p>Kdo byl Ježíš Kristus? Odpověď závisí na tom, koho se zeptáte – teologa, historika, nebo sběratele starověkých mincí. Pro každého z nich má ta otázka ...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jez__i__s___kristus_kazatel_z_galileje__ktery___zme__nil_sve__t.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jez__i__s___kristus_kazatel_z_galileje__ktery___zme__nil_sve__t.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jez__i__s___kristus_kazatel_z_galileje__ktery___zme__nil_sve__t.png" />
     </item>
     <item>
       <title>Albrecht II. Habsburský: Mezi lucemburským dědictvím a habsburskou budoucností</title>
       <link>https://www.mincmistr.cz/blog/albrecht-ii--habsbursky--mezi-lucemburskym-dedictvim-a-habsburskou-budoucnosti/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/albrecht-ii--habsbursky--mezi-lucemburskym-dedictvim-a-habsburskou-budoucnosti/</guid>
       <pubDate>Thu, 02 Apr 2026 09:13:31 +0000</pubDate>
-      <description>Na sklonku roku 1437 zemřel v moravském Znojmě Zikmund Lucemburský, poslední mužský potomek dynastie, která po tři generace utvářela tvář střední Evro...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_ii._habsbursky___mezi_lucembursky__m_de__dictvi__m_a_habsburskou_budoucnosti__.png" alt="" /><p>Na sklonku roku 1437 zemřel v moravském Znojmě Zikmund Lucemburský, poslední mužský potomek dynastie, která po tři generace utvářela tvář střední Evro...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_ii._habsbursky___mezi_lucembursky__m_de__dictvi__m_a_habsburskou_budoucnosti__.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_ii._habsbursky___mezi_lucembursky__m_de__dictvi__m_a_habsburskou_budoucnosti__.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_ii._habsbursky___mezi_lucembursky__m_de__dictvi__m_a_habsburskou_budoucnosti__.png" />
     </item>
     <item>
       <title>Václav IV.: Tragický dědic odkazu Karla IV.</title>
       <link>https://www.mincmistr.cz/blog/vaclav-iv-tragicky-dedic-odkazu-karla-iv/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/vaclav-iv-tragicky-dedic-odkazu-karla-iv/</guid>
       <pubDate>Mon, 30 Mar 2026 20:49:49 +0000</pubDate>
-      <description>Roku 1363 byl v pražské katedrále korunován dvouletý chlapec. Jeho otec Karel IV. tím světu oznámil, že lucemburská dynastie má budoucnost — a že ji h...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/va__clav_iv._tragicky___de__dic_odkazu_karla_iv.png" alt="" /><p>Roku 1363 byl v pražské katedrále korunován dvouletý chlapec. Jeho otec Karel IV. tím světu oznámil, že lucemburská dynastie má budoucnost — a že ji h...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/va__clav_iv._tragicky___de__dic_odkazu_karla_iv.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/va__clav_iv._tragicky___de__dic_odkazu_karla_iv.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/va__clav_iv._tragicky___de__dic_odkazu_karla_iv.png" />
     </item>
     <item>
       <title>Jan Jiří I. Saský: Kurfiřt mezi císařem, vírou a chaosem války</title>
       <link>https://www.mincmistr.cz/blog/jan-jiri-i--sasky--kurfirt-mezi-cisarem--virou-a-chaosem-valky/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/jan-jiri-i--sasky--kurfirt-mezi-cisarem--virou-a-chaosem-valky/</guid>
       <pubDate>Mon, 23 Mar 2026 14:05:07 +0000</pubDate>
-      <description>Na saském kurfiřtském trůně seděl téměř půl století. Přežil kolaps měny, ničivé přesuny vojsk, rozpad starého říšského řádu i samotnou třicetiletou vá...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jan_jir__i___i._sasky___kurfir__t_mezi_ci__sar__em__vi__rou_a_chaosem_va__lky.png" alt="" /><p>Na saském kurfiřtském trůně seděl téměř půl století. Přežil kolaps měny, ničivé přesuny vojsk, rozpad starého říšského řádu i samotnou třicetiletou vá...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jan_jir__i___i._sasky___kurfir__t_mezi_ci__sar__em__vi__rou_a_chaosem_va__lky.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jan_jir__i___i._sasky___kurfir__t_mezi_ci__sar__em__vi__rou_a_chaosem_va__lky.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jan_jir__i___i._sasky___kurfir__t_mezi_ci__sar__em__vi__rou_a_chaosem_va__lky.png" />
     </item>
     <item>
       <title>Ferdinand I.: Muž, který po Moháči skládal nový řád ve střední Evropě</title>
       <link>https://www.mincmistr.cz/blog/ferdinand-i-muz--ktery-po-mohaci-skladal-novy-rad-ve-stredni-evrope/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/ferdinand-i-muz--ktery-po-mohaci-skladal-novy-rad-ve-stredni-evrope/</guid>
       <pubDate>Sun, 15 Mar 2026 08:48:00 +0000</pubDate>
-      <description>Rok 1526 nepřinesl Evropě jen jednu katastrofu. Přinesl jich hned několik najednou. Turecké armády Sulejmana I. Nádherného rozdrtily uherské vojsko na...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" alt="" /><p>Rok 1526 nepřinesl Evropě jen jednu katastrofu. Přinesl jich hned několik najednou. Turecké armády Sulejmana I. Nádherného rozdrtily uherské vojsko na...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" />
     </item>
     <item>
       <title>Leopold II.: Císař, který přišel příliš pozdě a odešel příliš brzy</title>
       <link>https://www.mincmistr.cz/blog/leopold-ii-cisar--ktery-prisel-prilis-pozde-a-odesel-prilis-brzy/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/leopold-ii-cisar--ktery-prisel-prilis-pozde-a-odesel-prilis-brzy/</guid>
       <pubDate>Mon, 09 Mar 2026 14:49:01 +0000</pubDate>
-      <description>Prvního března 1792 zemřel ve Vídni císař, který vládl habsburské monarchii těsně přes dva roky. Nezanechal po sobě velké války, slavné bitvy ani epoc...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/leopold_ii._-_posledni___rozumny___ci__sar___pr__ed_revoluc__ni___bour__i__.png" alt="" /><p>Prvního března 1792 zemřel ve Vídni císař, který vládl habsburské monarchii těsně přes dva roky. Nezanechal po sobě velké války, slavné bitvy ani epoc...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/leopold_ii._-_posledni___rozumny___ci__sar___pr__ed_revoluc__ni___bour__i__.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/leopold_ii._-_posledni___rozumny___ci__sar___pr__ed_revoluc__ni___bour__i__.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/leopold_ii._-_posledni___rozumny___ci__sar___pr__ed_revoluc__ni___bour__i__.png" />
     </item>
     <item>
       <title>Marcus Aurelius: Poslední „dobrý císař“ v nejtvrdších letech římské říše</title>
       <link>https://www.mincmistr.cz/blog/marcus-aurelius--posledni--dobry-cisar--v-nejtvrdsich-letech-rimske-rise/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/marcus-aurelius--posledni--dobry-cisar--v-nejtvrdsich-letech-rimske-rise/</guid>
       <pubDate>Sun, 01 Mar 2026 16:23:37 +0000</pubDate>
-      <description>Kolem roku 120 po Kristu se v přístavu Ostia vykládá obilí z Egypta, legionáři na Dunaji kontrolují pohraniční hlídky a v římských ulicích se běžně pl...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/marcus_aurelius_-_posledni______dobry___ci__sar______v_nejtvrds__i__ch_letech_r__i__mske___r__i__s__e.png" alt="" /><p>Kolem roku 120 po Kristu se v přístavu Ostia vykládá obilí z Egypta, legionáři na Dunaji kontrolují pohraniční hlídky a v římských ulicích se běžně pl...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/marcus_aurelius_-_posledni______dobry___ci__sar______v_nejtvrds__i__ch_letech_r__i__mske___r__i__s__e.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/marcus_aurelius_-_posledni______dobry___ci__sar______v_nejtvrds__i__ch_letech_r__i__mske___r__i__s__e.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/marcus_aurelius_-_posledni______dobry___ci__sar______v_nejtvrds__i__ch_letech_r__i__mske___r__i__s__e.png" />
     </item>
     <item>
       <title>Tajemná Artia: Pamětní sady medailí a numismatika pod socialistickým dohledem</title>
       <link>https://www.mincmistr.cz/blog/tajemna-artia--pametni-sady-medaili-a-numismatika-pod-socialistickym-dohledem/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/tajemna-artia--pametni-sady-medaili-a-numismatika-pod-socialistickym-dohledem/</guid>
       <pubDate>Fri, 27 Feb 2026 08:40:04 +0000</pubDate>
-      <description>Luxusní dřevěná etue, uvnitř sametová výstelka a v ní zlaté medaile s leštěnými plochami. Na víku státní znak, uvnitř číslovaný certifikát s názvem fi...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" alt="" /><p>Luxusní dřevěná etue, uvnitř sametová výstelka a v ní zlaté medaile s leštěnými plochami. Na víku státní znak, uvnitř číslovaný certifikát s názvem fi...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" />
     </item>
     <item>
       <title>Třicetiletá válka: Od pražské defenestrace k nejničivějšímu konfliktu Evropy</title>
       <link>https://www.mincmistr.cz/blog/tricetileta-valka--od-prazske-defenestrace-k-nejnicivejsimu-konfliktu-evropy/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/tricetileta-valka--od-prazske-defenestrace-k-nejnicivejsimu-konfliktu-evropy/</guid>
       <pubDate>Fri, 20 Feb 2026 13:53:39 +0000</pubDate>
-      <description>Třicet let trvalo, než se Evropa vyčerpala natolik, aby usedla k jednacímu stolu. Třicetiletá válka (1618–1648) začala jako náboženský spor v Čechách,...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tr__icetileta___va__lka_od_praz__ske___defenestrace_k_nejnic__ive__js__i__mu_konfliktu_evropy.png" alt="" /><p>Třicet let trvalo, než se Evropa vyčerpala natolik, aby usedla k jednacímu stolu. Třicetiletá válka (1618–1648) začala jako náboženský spor v Čechách,...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tr__icetileta___va__lka_od_praz__ske___defenestrace_k_nejnic__ive__js__i__mu_konfliktu_evropy.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tr__icetileta___va__lka_od_praz__ske___defenestrace_k_nejnic__ive__js__i__mu_konfliktu_evropy.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tr__icetileta___va__lka_od_praz__ske___defenestrace_k_nejnic__ive__js__i__mu_konfliktu_evropy.png" />
     </item>
     <item>
       <title>Pohádkový král z Neuschwansteinu: Ludvík II. a tragédie mezi snem a šílenstvím</title>
       <link>https://www.mincmistr.cz/blog/pohadkovy-kral-z-neuschwansteinu--ludvik-ii--a-tragedie-mezi-snem-a-silenstvim/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/pohadkovy-kral-z-neuschwansteinu--ludvik-ii--a-tragedie-mezi-snem-a-silenstvim/</guid>
       <pubDate>Sun, 15 Feb 2026 13:18:01 +0000</pubDate>
-      <description>Když 10. března 1864 zemřel bavorský král Maximilián II. Bavorský, na trůn nastoupil jeho osmnáctiletý syn. Byl vysoký, pohledný a plný ideálů – a cel...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/poha__dkovy___kra__l_z_neuschwansteinu_-_ludvi__k_ii._a_trage__die_s__i__lene__ho_kra__le.png" alt="" /><p>Když 10. března 1864 zemřel bavorský král Maximilián II. Bavorský, na trůn nastoupil jeho osmnáctiletý syn. Byl vysoký, pohledný a plný ideálů – a cel...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/poha__dkovy___kra__l_z_neuschwansteinu_-_ludvi__k_ii._a_trage__die_s__i__lene__ho_kra__le.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/poha__dkovy___kra__l_z_neuschwansteinu_-_ludvi__k_ii._a_trage__die_s__i__lene__ho_kra__le.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/poha__dkovy___kra__l_z_neuschwansteinu_-_ludvi__k_ii._a_trage__die_s__i__lene__ho_kra__le.png" />
     </item>
     <item>
       <title>Od Athén po Syrakusy: Příběhy řeckých městských států vyražené do stříbra</title>
       <link>https://www.mincmistr.cz/blog/od-athen-po-syrakusy--pribehy-reckych-mestskych-statu-vyrazene-do-stribra/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/od-athen-po-syrakusy--pribehy-reckych-mestskych-statu-vyrazene-do-stribra/</guid>
       <pubDate>Mon, 02 Feb 2026 18:08:41 +0000</pubDate>
-      <description>Když dnes vyslovíme slovo „Řecko", většina z nás si představí jednotný stát s hlavním městem Athénami. Antická realita však vypadala zcela jinak. Řeck...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_athe__n_po_syrakusy_-_pr__i__be__hy_r__ecky__ch_me__stsky__ch_sta__tu___vyraz__ene___do_str__i__bra.png" alt="" /><p>Když dnes vyslovíme slovo „Řecko", většina z nás si představí jednotný stát s hlavním městem Athénami. Antická realita však vypadala zcela jinak. Řeck...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_athe__n_po_syrakusy_-_pr__i__be__hy_r__ecky__ch_me__stsky__ch_sta__tu___vyraz__ene___do_str__i__bra.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_athe__n_po_syrakusy_-_pr__i__be__hy_r__ecky__ch_me__stsky__ch_sta__tu___vyraz__ene___do_str__i__bra.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_athe__n_po_syrakusy_-_pr__i__be__hy_r__ecky__ch_me__stsky__ch_sta__tu___vyraz__ene___do_str__i__bra.png" />
     </item>
     <item>
       <title>Karel VI.: Císař, který vsadil vše na budoucnost své dcery</title>
       <link>https://www.mincmistr.cz/blog/karel-vi-cisar--ktery-vsadil-vse-na-budoucnost-sve-dcery/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/karel-vi-cisar--ktery-vsadil-vse-na-budoucnost-sve-dcery/</guid>
       <pubDate>Sat, 31 Jan 2026 19:03:03 +0000</pubDate>
-      <description>Roku 1740 zemřel muž, který celý život budoval něco, co se zhroutilo během týdnů po jeho smrti. Karel VI. Habsburský strávil desetiletí vyjednáváním a...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_vi._-_ci__sar____ktery___vsadil_vs__e_na_budoucnost_sve___dcery.png" alt="" /><p>Roku 1740 zemřel muž, který celý život budoval něco, co se zhroutilo během týdnů po jeho smrti. Karel VI. Habsburský strávil desetiletí vyjednáváním a...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_vi._-_ci__sar____ktery___vsadil_vs__e_na_budoucnost_sve___dcery.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_vi._-_ci__sar____ktery___vsadil_vs__e_na_budoucnost_sve___dcery.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_vi._-_ci__sar____ktery___vsadil_vs__e_na_budoucnost_sve___dcery.png" />
     </item>
     <item>
       <title>Napoleon Bonaparte: Od korsického outsidera k vládci Evropy</title>
       <link>https://www.mincmistr.cz/blog/napoleon-bonaparte--od-korsickeho-outsidera-k-vladci-evropy/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/napoleon-bonaparte--od-korsickeho-outsidera-k-vladci-evropy/</guid>
       <pubDate>Sun, 25 Jan 2026 17:27:16 +0000</pubDate>
-      <description>Dne 15. srpna 1769 se na Korsice narodil druhý syn Carla Buonaparta, a přestože nikdo z přítomných nemohl tušit, jaký osud tomuto chlapci hvězdy připr...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/napoleon_bonaparte_od_korsicke__ho_outsidera_k_vla__dci_kontinentu.png" alt="" /><p>Dne 15. srpna 1769 se na Korsice narodil druhý syn Carla Buonaparta, a přestože nikdo z přítomných nemohl tušit, jaký osud tomuto chlapci hvězdy připr...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/napoleon_bonaparte_od_korsicke__ho_outsidera_k_vla__dci_kontinentu.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/napoleon_bonaparte_od_korsicke__ho_outsidera_k_vla__dci_kontinentu.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/napoleon_bonaparte_od_korsicke__ho_outsidera_k_vla__dci_kontinentu.png" />
     </item>
     <item>
       <title>Svatá říše římská: Nejpodivnější říše evropských dějin</title>
       <link>https://www.mincmistr.cz/blog/svata-rise-rimska--nejpodivnejsi-rise-evropskych-dejin/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/svata-rise-rimska--nejpodivnejsi-rise-evropskych-dejin/</guid>
       <pubDate>Wed, 21 Jan 2026 19:17:19 +0000</pubDate>
-      <description>Politický útvar, který přetrval 844 let, rozprostíral se od Severního moře po Středozemní moře a zahrnoval desítky národů – a přesto nikdy nebyl skute...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svata___r__i__s__e_r__i__mska___-_nejpodivne__js__i___r__i__s__e_evropsky__ch_de__jin.png" alt="" /><p>Politický útvar, který přetrval 844 let, rozprostíral se od Severního moře po Středozemní moře a zahrnoval desítky národů – a přesto nikdy nebyl skute...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svata___r__i__s__e_r__i__mska___-_nejpodivne__js__i___r__i__s__e_evropsky__ch_de__jin.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svata___r__i__s__e_r__i__mska___-_nejpodivne__js__i___r__i__s__e_evropsky__ch_de__jin.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svata___r__i__s__e_r__i__mska___-_nejpodivne__js__i___r__i__s__e_evropsky__ch_de__jin.png" />
     </item>
     <item>
       <title>Vladislav II. Jagellonský: Mezi Prahou a Budínem – trůn plný kompromisů</title>
       <link>https://www.mincmistr.cz/blog/vladislav-ii--jagellonsky--mezi-prahou-a-budinem---trun-plny-kompromisu/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/vladislav-ii--jagellonsky--mezi-prahou-a-budinem---trun-plny-kompromisu/</guid>
       <pubDate>Sun, 18 Jan 2026 22:13:18 +0000</pubDate>
-      <description>Roku 1471 usedl na český trůn muž, jehož jméno se stalo synonymem pro ústupky a kompromisy. Vladislav II. Jagellonský vládl českému království čtyři a...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mezi_prahou_a_budi__nem_-_vladislav_ii._jagellonsky___a_tru__n_plny___kompromisu__.png" alt="" /><p>Roku 1471 usedl na český trůn muž, jehož jméno se stalo synonymem pro ústupky a kompromisy. Vladislav II. Jagellonský vládl českému království čtyři a...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mezi_prahou_a_budi__nem_-_vladislav_ii._jagellonsky___a_tru__n_plny___kompromisu__.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mezi_prahou_a_budi__nem_-_vladislav_ii._jagellonsky___a_tru__n_plny___kompromisu__.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mezi_prahou_a_budi__nem_-_vladislav_ii._jagellonsky___a_tru__n_plny___kompromisu__.png" />
     </item>
     <item>
       <title>Přemysl Otakar II.: Král železný a zlatý: Vzestup a pád nejmocnějšího Přemyslovce</title>
       <link>https://www.mincmistr.cz/blog/premysl-otakar-ii--kral-zelezny-a-zlaty--vzestup-a-pad-nejmocnejsiho-premyslovce/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/premysl-otakar-ii--kral-zelezny-a-zlaty--vzestup-a-pad-nejmocnejsiho-premyslovce/</guid>
       <pubDate>Thu, 15 Jan 2026 16:11:07 +0000</pubDate>
-      <description>Kdo byl muž, jehož panství sahalo od Krkonoš až k Jaderskému moři? Přemysl Otakar II. patří k těm postavám středověkých dějin, které dodnes rozdělují ...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pr__emysl_otakar_ii._kra__l_z__elezny___a_zlaty___vzestup_a_pa__d_nejmocne__js__i__ho_pr__emyslovce.png" alt="" /><p>Kdo byl muž, jehož panství sahalo od Krkonoš až k Jaderskému moři? Přemysl Otakar II. patří k těm postavám středověkých dějin, které dodnes rozdělují ...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pr__emysl_otakar_ii._kra__l_z__elezny___a_zlaty___vzestup_a_pa__d_nejmocne__js__i__ho_pr__emyslovce.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pr__emysl_otakar_ii._kra__l_z__elezny___a_zlaty___vzestup_a_pa__d_nejmocne__js__i__ho_pr__emyslovce.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pr__emysl_otakar_ii._kra__l_z__elezny___a_zlaty___vzestup_a_pa__d_nejmocne__js__i__ho_pr__emyslovce.png" />
     </item>
     <item>
       <title>Rožmberkové: Příběh mocného šlechtického rodu, který neměl v Čechách obdoby</title>
       <link>https://www.mincmistr.cz/blog/rozmberkove--pribeh-mocneho-slechtickeho-rodu--ktery-nemel-v-cechach-obdoby/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/rozmberkove--pribeh-mocneho-slechtickeho-rodu--ktery-nemel-v-cechach-obdoby/</guid>
       <pubDate>Sat, 10 Jan 2026 13:15:48 +0000</pubDate>
-      <description>Červená pětilistá růže ve stříbrném poli. Znak tak prostý, a přece tak mocný, že se po více než tři staletí vtiskoval do kamene hradů, do listin s peč...</description>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/roz__mberkove___pr__i__be__h_mocne__ho_s__lechticke__ho_rodu__ktery___neme__l_v_c__echa__ch_obdoby.png" alt="" /><p>Červená pětilistá růže ve stříbrném poli. Znak tak prostý, a přece tak mocný, že se po více než tři staletí vtiskoval do kamene hradů, do listin s peč...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/roz__mberkove___pr__i__be__h_mocne__ho_s__lechticke__ho_rodu__ktery___neme__l_v_c__echa__ch_obdoby.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/roz__mberkove___pr__i__be__h_mocne__ho_s__lechticke__ho_rodu__ktery___neme__l_v_c__echa__ch_obdoby.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/roz__mberkove___pr__i__be__h_mocne__ho_s__lechticke__ho_rodu__ktery___neme__l_v_c__echa__ch_obdoby.png" />
     </item>
   </channel>
 </rss>
