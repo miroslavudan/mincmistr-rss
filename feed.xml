@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 19 Apr 2026 08:59:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 09:10:23 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>15 fascinujících zajímavostí ze světa mincí, které vás překvapí</title>
+      <link>https://www.mincmistr.cz/tipy-triky/15-fascinujicich-zajimavosti-ze-sveta-minci--ktere-vas-prekvapi/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/tipy-triky/15-fascinujicich-zajimavosti-ze-sveta-minci--ktere-vas-prekvapi/</guid>
+      <pubDate>Tue, 14 Apr 2026 20:08:13 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/15_fascinuji__ci__ch_zaji__mavosti___ze_sve__ta_minci____ktere___va__s_pr__ekvapi__.png" alt="" /><p>Mince jsou víc než jen platidla – jsou to malí svědkové historie, kultury a lidské vynalézavosti. Za tisíce let své existence nashromáždily nespočet f...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/15_fascinuji__ci__ch_zaji__mavosti___ze_sve__ta_minci____ktere___va__s_pr__ekvapi__.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/15_fascinuji__ci__ch_zaji__mavosti___ze_sve__ta_minci____ktere___va__s_pr__ekvapi__.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/15_fascinuji__ci__ch_zaji__mavosti___ze_sve__ta_minci____ktere___va__s_pr__ekvapi__.png" />
+    </item>
     <item>
       <title>Augustus: Muž, který proměnil Řím v císařství</title>
       <link>https://www.mincmistr.cz/blog/augustus--muz--ktery-promenil-rim-v-cisarstvi/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_vi._-_ci__sar____ktery___vsadil_vs__e_na_budoucnost_sve___dcery.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_vi._-_ci__sar____ktery___vsadil_vs__e_na_budoucnost_sve___dcery.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_vi._-_ci__sar____ktery___vsadil_vs__e_na_budoucnost_sve___dcery.png" />
-    </item>
-    <item>
-      <title>Napoleon Bonaparte: Od korsického outsidera k vládci Evropy</title>
-      <link>https://www.mincmistr.cz/blog/napoleon-bonaparte--od-korsickeho-outsidera-k-vladci-evropy/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/napoleon-bonaparte--od-korsickeho-outsidera-k-vladci-evropy/</guid>
-      <pubDate>Sun, 25 Jan 2026 17:27:16 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/napoleon_bonaparte_od_korsicke__ho_outsidera_k_vla__dci_kontinentu.png" alt="" /><p>Dne 15. srpna 1769 se na Korsice narodil druhý syn Carla Buonaparta, a přestože nikdo z přítomných nemohl tušit, jaký osud tomuto chlapci hvězdy připr...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/napoleon_bonaparte_od_korsicke__ho_outsidera_k_vla__dci_kontinentu.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/napoleon_bonaparte_od_korsicke__ho_outsidera_k_vla__dci_kontinentu.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/napoleon_bonaparte_od_korsicke__ho_outsidera_k_vla__dci_kontinentu.png" />
     </item>
   </channel>
 </rss>
