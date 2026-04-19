@@ -1,0 +1,56 @@
+name: Update RSS feed
+
+# Kdy se má workflow spustit
+on:
+  schedule:
+    # Každé 2 hodiny. Cron používá UTC.
+    # Pokud chceš jinou frekvenci, uprav níže:
+    #   '0 * * * *'   = každou hodinu
+    #   '0 */6 * * *' = každých 6 hodin
+    #   '0 4 * * *'   = každý den ve 4:00 UTC (6:00 CEST)
+    - cron: '0 */2 * * *'
+
+  # Spustit při pushi na main (kromě když commit obsahuje [skip ci])
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'feed.xml'
+      - 'README.md'
+
+  # Možnost spustit ručně ze záložky Actions v repozitáři
+  workflow_dispatch:
+
+# Potřebujeme právo commitovat zpět do repa
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repozitáře
+        uses: actions/checkout@v4
+
+      - name: Instalace Pythonu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalace závislostí
+        run: pip install -r requirements.txt
+
+      - name: Vygenerování RSS feedu
+        run: python generate_rss.py --output feed.xml --limit 20
+
+      - name: Commit & push (pokud se feed změnil)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed.xml
+          if git diff --staged --quiet; then
+            echo "Žádné změny ve feedu — nic neukládám."
+          else
+            git commit -m "chore: update RSS feed [skip ci]"
+            git push
+          fi

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mincmistr.cz — RSS feed blogu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="alternate" type="application/rss+xml"
+        title="Mincmistr.cz Blog" href="feed.xml" />
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 640px; margin: 4rem auto; padding: 0 1rem;
+      color: #222; line-height: 1.5;
+    }
+    h1 { font-size: 1.5rem; }
+    code {
+      background: #f3f3f3; padding: 2px 6px; border-radius: 4px;
+      font-size: 0.95em;
+    }
+    a { color: #b8860b; }
+    .box {
+      border: 1px solid #e5e5e5; border-radius: 8px;
+      padding: 1rem 1.25rem; margin-top: 1.5rem; background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <h1>RSS feed blogu Mincmistr.cz</h1>
+  <p>
+    Tato stránka hostuje RSS feed článků z blogu
+    <a href="https://www.mincmistr.cz/blog/">mincmistr.cz/blog</a>,
+    protože Shoptet tuto funkci nativně nepodporuje.
+  </p>
+
+  <div class="box">
+    <strong>URL feedu:</strong><br />
+    <a href="feed.xml"><code>feed.xml</code></a>
+  </div>
+
+  <p>
+    Feed se automaticky obnovuje každé 2 hodiny přes GitHub Actions.
+    Obsahuje 20 nejnovějších článků — titulek, odkaz, datum a perex.
+  </p>
+</body>
+</html>
