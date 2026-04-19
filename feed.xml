@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 19 Apr 2026 16:29:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 18:35:29 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Svobodní zednáři: Tajný řád, který fascinoval i děsil Evropu</title>
+      <link>https://www.mincmistr.cz/blog/svobodni-zednari--tajny-rad--ktery-fascinoval-i-desil-evropu/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/svobodni-zednari--tajny-rad--ktery-fascinoval-i-desil-evropu/</guid>
+      <pubDate>Sun, 19 Apr 2026 16:42:48 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svobodni___zedna__r__i_de__jiny_tajne__ho_r__a__du__ktery___fascinoval_i_de__sil_evropu.png" alt="" /><p>V pivnici Goose and Gridiron na prostranství u katedrály sv. Pavla se 24. června 1717 spojily čtyři londýnské lóže a ustavily první Velkou lóži. Naven...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svobodni___zedna__r__i_de__jiny_tajne__ho_r__a__du__ktery___fascinoval_i_de__sil_evropu.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svobodni___zedna__r__i_de__jiny_tajne__ho_r__a__du__ktery___fascinoval_i_de__sil_evropu.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svobodni___zedna__r__i_de__jiny_tajne__ho_r__a__du__ktery___fascinoval_i_de__sil_evropu.png" />
+    </item>
     <item>
       <title>15 fascinujících zajímavostí ze světa mincí, které vás překvapí</title>
       <link>https://www.mincmistr.cz/tipy-triky/15-fascinujicich-zajimavosti-ze-sveta-minci--ktere-vas-prekvapi/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_athe__n_po_syrakusy_-_pr__i__be__hy_r__ecky__ch_me__stsky__ch_sta__tu___vyraz__ene___do_str__i__bra.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_athe__n_po_syrakusy_-_pr__i__be__hy_r__ecky__ch_me__stsky__ch_sta__tu___vyraz__ene___do_str__i__bra.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_athe__n_po_syrakusy_-_pr__i__be__hy_r__ecky__ch_me__stsky__ch_sta__tu___vyraz__ene___do_str__i__bra.png" />
-    </item>
-    <item>
-      <title>Karel VI.: Císař, který vsadil vše na budoucnost své dcery</title>
-      <link>https://www.mincmistr.cz/blog/karel-vi-cisar--ktery-vsadil-vse-na-budoucnost-sve-dcery/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/karel-vi-cisar--ktery-vsadil-vse-na-budoucnost-sve-dcery/</guid>
-      <pubDate>Sat, 31 Jan 2026 19:03:03 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_vi._-_ci__sar____ktery___vsadil_vs__e_na_budoucnost_sve___dcery.png" alt="" /><p>Roku 1740 zemřel muž, který celý život budoval něco, co se zhroutilo během týdnů po jeho smrti. Karel VI. Habsburský strávil desetiletí vyjednáváním a...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_vi._-_ci__sar____ktery___vsadil_vs__e_na_budoucnost_sve___dcery.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_vi._-_ci__sar____ktery___vsadil_vs__e_na_budoucnost_sve___dcery.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_vi._-_ci__sar____ktery___vsadil_vs__e_na_budoucnost_sve___dcery.png" />
     </item>
   </channel>
 </rss>
