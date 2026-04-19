@@ -76,12 +76,29 @@ CARD_FALLBACK_SELECTORS = [
 # ============================================================
 
 
+def _guess_image_mime(url: str) -> str:
+    """Odhadne MIME typ z koncovky URL."""
+    u = url.lower().split("?")[0]
+    if u.endswith(".png"):
+        return "image/png"
+    if u.endswith(".jpg") or u.endswith(".jpeg"):
+        return "image/jpeg"
+    if u.endswith(".webp"):
+        return "image/webp"
+    if u.endswith(".gif"):
+        return "image/gif"
+    if u.endswith(".svg"):
+        return "image/svg+xml"
+    return "image/jpeg"
+
+
 @dataclass
 class Article:
     title: str
     link: str
     pub_date: datetime | None
     description: str
+    image_url: str = ""
 
     def to_rss_item(self) -> str:
         parts = ["    <item>"]
@@ -95,10 +112,46 @@ class Article:
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
             parts.append(f"      <pubDate>{format_datetime(dt)}</pubDate>")
-        if self.description:
+
+        # Description: pokud máme obrázek, vlož ho jako HTML <img> na začátek
+        # (wrapped v CDATA, aby čtečky parsovaly HTML). Jinak plain text.
+        if self.image_url or self.description:
+            if self.image_url:
+                safe_img = self.image_url.replace("]]>", "]]]]><![CDATA[>")
+                safe_desc = (self.description or "").replace(
+                    "]]>", "]]]]><![CDATA[>"
+                )
+                inner = (
+                    f'<img src="{safe_img}" alt="" />'
+                    f'<p>{safe_desc}</p>' if safe_desc else
+                    f'<img src="{safe_img}" alt="" />'
+                )
+                parts.append(
+                    f"      <description><![CDATA[{inner}]]></description>"
+                )
+            else:
+                parts.append(
+                    f"      <description>{escape(self.description)}"
+                    f"</description>"
+                )
+
+        # Enclosure (standardní způsob, jak RSS přibalí soubor)
+        if self.image_url:
+            mime = _guess_image_mime(self.image_url)
             parts.append(
-                f"      <description>{escape(self.description)}</description>"
+                f'      <enclosure url="{escape(self.image_url)}" '
+                f'length="0" type="{mime}" />'
             )
+            # Media:content (Media RSS namespace) — širší podpora ve čtečkách
+            parts.append(
+                f'      <media:content url="{escape(self.image_url)}" '
+                f'medium="image" type="{mime}" />'
+            )
+            # Media:thumbnail — některé čtečky preferují
+            parts.append(
+                f'      <media:thumbnail url="{escape(self.image_url)}" />'
+            )
+
         parts.append("    </item>")
         return "\n".join(parts)
 
@@ -209,7 +262,34 @@ def parse_card(card, base_url: str) -> Article | None:
     if desc_el is not None:
         perex = clean_text(desc_el.get_text(), max_len=500)
 
-    return Article(title=title, link=link, pub_date=pub_date, description=perex)
+    # Hero obrázek — <div class="image"><img src="..." width="800">
+    # Shoptet má lazy-loading: u článků kromě prvního je v `src` SVG
+    # placeholder a skutečná URL v `data-src`. Preferujeme data-src, pak src.
+    image_url = ""
+    img_el = (
+        card.select_one("div.image img")
+        or card.select_one("a.image img")
+        or card.select_one("img")
+    )
+    if img_el is not None:
+        src = (
+            img_el.get("data-src")
+            or img_el.get("data-lazy-src")
+            or img_el.get("data-original")
+            or img_el.get("src")
+            or ""
+        )
+        # Přeskoč data: URI (placeholdery)
+        if src and not src.startswith("data:"):
+            image_url = urljoin(base_url, src)
+
+    return Article(
+        title=title,
+        link=link,
+        pub_date=pub_date,
+        description=perex,
+        image_url=image_url,
+    )
 
 
 def fetch_page_articles(
@@ -235,7 +315,10 @@ def build_rss(articles: list[Article]) -> str:
     now = format_datetime(datetime.now(tz=timezone.utc))
     items_xml = "\n".join(a.to_rss_item() for a in articles)
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{escape(CONFIG['feed_title'])}</title>
     <link>{escape(CONFIG['blog_url'])}</link>
