@@ -4,11 +4,11 @@
      xmlns:media="http://search.yahoo.com/mrss/"
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Mincmistr.cz — Blog</title>
+    <title>Mincmistr.cz — Blog a tipy</title>
     <link>https://www.mincmistr.cz/blog/</link>
-    <description>Články o mincích, bankovkách, historii a sběratelství z blogu Mincmistr.cz.</description>
+    <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 19 Apr 2026 08:34:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 08:59:50 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -42,6 +42,16 @@
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_ii._cena_za_vi__te__zstvi___na_bi__le___hor__e.png" />
     </item>
     <item>
+      <title>Nejznámější ražby českých panovníků: Mince jako zrcadlo dějin</title>
+      <link>https://www.mincmistr.cz/tipy-triky/panovnici-a-jejich-nejznamejsi-razby--mince-jako-zrcadlo-dejin/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/tipy-triky/panovnici-a-jejich-nejznamejsi-razby--mince-jako-zrcadlo-dejin/</guid>
+      <pubDate>Mon, 06 Apr 2026 12:48:29 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/nejzna__me__js__i___raz__by_c__esky__ch_panovni__ku___-_mince_jako_zrcadlo_de__jin.png" alt="" /><p>Kdo razil pražský groš? Čí tvář nesou nejslavnější habsburské tolary? A proč se levantský tolar Marie Terezie razí dodnes, téměř dvě a půl století po ...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/nejzna__me__js__i___raz__by_c__esky__ch_panovni__ku___-_mince_jako_zrcadlo_de__jin.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/nejzna__me__js__i___raz__by_c__esky__ch_panovni__ku___-_mince_jako_zrcadlo_de__jin.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/nejzna__me__js__i___raz__by_c__esky__ch_panovni__ku___-_mince_jako_zrcadlo_de__jin.png" />
+    </item>
+    <item>
       <title>Ježíš Kristus: Kazatel z Galileje, který změnil svět</title>
       <link>https://www.mincmistr.cz/blog/jezis-kristus--kazatel-z-galileje--ktery-zmenil-svet/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/jezis-kristus--kazatel-z-galileje--ktery-zmenil-svet/</guid>
@@ -72,6 +82,16 @@
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/va__clav_iv._tragicky___de__dic_odkazu_karla_iv.png" />
     </item>
     <item>
+      <title>Jak poznat pravost mince</title>
+      <link>https://www.mincmistr.cz/tipy-triky/jak-poznat-pravost-mince/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/tipy-triky/jak-poznat-pravost-mince/</guid>
+      <pubDate>Sat, 28 Mar 2026 16:23:23 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_poznat_pade__lek_str__i__brne___mince.png" alt="" /><p>Otázka pravosti mince se dříve nebo později dotkne každého, kdo se o mince zajímá. Ať už jste zdědili sbírku po příbuzném, chystáte se koupit svou prv...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_poznat_pade__lek_str__i__brne___mince.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_poznat_pade__lek_str__i__brne___mince.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_poznat_pade__lek_str__i__brne___mince.png" />
+    </item>
+    <item>
       <title>Jan Jiří I. Saský: Kurfiřt mezi císařem, vírou a chaosem války</title>
       <link>https://www.mincmistr.cz/blog/jan-jiri-i--sasky--kurfirt-mezi-cisarem--virou-a-chaosem-valky/</link>
       <guid isPermaLink="true">https://www.mincmistr.cz/blog/jan-jiri-i--sasky--kurfirt-mezi-cisarem--virou-a-chaosem-valky/</guid>
@@ -90,6 +110,16 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" />
+    </item>
+    <item>
+      <title>Jak funguje a co znamená NGC/PCGS certifikace mincí</title>
+      <link>https://www.mincmistr.cz/tipy-triky/jak-funguje-a-co-znamena-ngc-pcgs-certifikace-minci/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/tipy-triky/jak-funguje-a-co-znamena-ngc-pcgs-certifikace-minci/</guid>
+      <pubDate>Fri, 13 Mar 2026 23:52:47 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_se_hodnoti___kvalita_a_zachovalost_minci__-2.png" alt="" /><p>Pokud jste někdy procházeli nabídky mincí v aukčních domech, na zahraničních burzách nebo přímo v e-shopech, s největší pravděpodobností jste narazili...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_se_hodnoti___kvalita_a_zachovalost_minci__-2.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_se_hodnoti___kvalita_a_zachovalost_minci__-2.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_se_hodnoti___kvalita_a_zachovalost_minci__-2.png" />
     </item>
     <item>
       <title>Leopold II.: Císař, který přišel příliš pozdě a odešel příliš brzy</title>
@@ -120,6 +150,16 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" />
+    </item>
+    <item>
+      <title>Jak začít sbírat mince bez zbytečných chyb: Průvodce pro začátečníky</title>
+      <link>https://www.mincmistr.cz/tipy-triky/jak-zacit-sbirat-mince-bez-zbytecnych-chyb--pruvodce-pro-zacatecniky/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/tipy-triky/jak-zacit-sbirat-mince-bez-zbytecnych-chyb--pruvodce-pro-zacatecniky/</guid>
+      <pubDate>Mon, 23 Feb 2026 13:29:44 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_zac__i__t_sbi__rat_mince_-_pru__vodce_pro_zac__a__tec__ni__ky.png" alt="" /><p>Stříbrný groš, který se vejde do dlaně, může vážit pár gramů – a přitom nést stovky a tisíce příběhů starých půl tisíciletí. Právě v tom spočívá zvláš...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_zac__i__t_sbi__rat_mince_-_pru__vodce_pro_zac__a__tec__ni__ky.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_zac__i__t_sbi__rat_mince_-_pru__vodce_pro_zac__a__tec__ni__ky.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_zac__i__t_sbi__rat_mince_-_pru__vodce_pro_zac__a__tec__ni__ky.png" />
     </item>
     <item>
       <title>Třicetiletá válka: Od pražské defenestrace k nejničivějšímu konfliktu Evropy</title>
@@ -170,46 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/napoleon_bonaparte_od_korsicke__ho_outsidera_k_vla__dci_kontinentu.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/napoleon_bonaparte_od_korsicke__ho_outsidera_k_vla__dci_kontinentu.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/napoleon_bonaparte_od_korsicke__ho_outsidera_k_vla__dci_kontinentu.png" />
-    </item>
-    <item>
-      <title>Svatá říše římská: Nejpodivnější říše evropských dějin</title>
-      <link>https://www.mincmistr.cz/blog/svata-rise-rimska--nejpodivnejsi-rise-evropskych-dejin/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/svata-rise-rimska--nejpodivnejsi-rise-evropskych-dejin/</guid>
-      <pubDate>Wed, 21 Jan 2026 19:17:19 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svata___r__i__s__e_r__i__mska___-_nejpodivne__js__i___r__i__s__e_evropsky__ch_de__jin.png" alt="" /><p>Politický útvar, který přetrval 844 let, rozprostíral se od Severního moře po Středozemní moře a zahrnoval desítky národů – a přesto nikdy nebyl skute...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svata___r__i__s__e_r__i__mska___-_nejpodivne__js__i___r__i__s__e_evropsky__ch_de__jin.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svata___r__i__s__e_r__i__mska___-_nejpodivne__js__i___r__i__s__e_evropsky__ch_de__jin.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svata___r__i__s__e_r__i__mska___-_nejpodivne__js__i___r__i__s__e_evropsky__ch_de__jin.png" />
-    </item>
-    <item>
-      <title>Vladislav II. Jagellonský: Mezi Prahou a Budínem – trůn plný kompromisů</title>
-      <link>https://www.mincmistr.cz/blog/vladislav-ii--jagellonsky--mezi-prahou-a-budinem---trun-plny-kompromisu/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/vladislav-ii--jagellonsky--mezi-prahou-a-budinem---trun-plny-kompromisu/</guid>
-      <pubDate>Sun, 18 Jan 2026 22:13:18 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mezi_prahou_a_budi__nem_-_vladislav_ii._jagellonsky___a_tru__n_plny___kompromisu__.png" alt="" /><p>Roku 1471 usedl na český trůn muž, jehož jméno se stalo synonymem pro ústupky a kompromisy. Vladislav II. Jagellonský vládl českému království čtyři a...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mezi_prahou_a_budi__nem_-_vladislav_ii._jagellonsky___a_tru__n_plny___kompromisu__.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mezi_prahou_a_budi__nem_-_vladislav_ii._jagellonsky___a_tru__n_plny___kompromisu__.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mezi_prahou_a_budi__nem_-_vladislav_ii._jagellonsky___a_tru__n_plny___kompromisu__.png" />
-    </item>
-    <item>
-      <title>Přemysl Otakar II.: Král železný a zlatý: Vzestup a pád nejmocnějšího Přemyslovce</title>
-      <link>https://www.mincmistr.cz/blog/premysl-otakar-ii--kral-zelezny-a-zlaty--vzestup-a-pad-nejmocnejsiho-premyslovce/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/premysl-otakar-ii--kral-zelezny-a-zlaty--vzestup-a-pad-nejmocnejsiho-premyslovce/</guid>
-      <pubDate>Thu, 15 Jan 2026 16:11:07 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pr__emysl_otakar_ii._kra__l_z__elezny___a_zlaty___vzestup_a_pa__d_nejmocne__js__i__ho_pr__emyslovce.png" alt="" /><p>Kdo byl muž, jehož panství sahalo od Krkonoš až k Jaderskému moři? Přemysl Otakar II. patří k těm postavám středověkých dějin, které dodnes rozdělují ...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pr__emysl_otakar_ii._kra__l_z__elezny___a_zlaty___vzestup_a_pa__d_nejmocne__js__i__ho_pr__emyslovce.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pr__emysl_otakar_ii._kra__l_z__elezny___a_zlaty___vzestup_a_pa__d_nejmocne__js__i__ho_pr__emyslovce.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pr__emysl_otakar_ii._kra__l_z__elezny___a_zlaty___vzestup_a_pa__d_nejmocne__js__i__ho_pr__emyslovce.png" />
-    </item>
-    <item>
-      <title>Rožmberkové: Příběh mocného šlechtického rodu, který neměl v Čechách obdoby</title>
-      <link>https://www.mincmistr.cz/blog/rozmberkove--pribeh-mocneho-slechtickeho-rodu--ktery-nemel-v-cechach-obdoby/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/rozmberkove--pribeh-mocneho-slechtickeho-rodu--ktery-nemel-v-cechach-obdoby/</guid>
-      <pubDate>Sat, 10 Jan 2026 13:15:48 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/roz__mberkove___pr__i__be__h_mocne__ho_s__lechticke__ho_rodu__ktery___neme__l_v_c__echa__ch_obdoby.png" alt="" /><p>Červená pětilistá růže ve stříbrném poli. Znak tak prostý, a přece tak mocný, že se po více než tři staletí vtiskoval do kamene hradů, do listin s peč...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/roz__mberkove___pr__i__be__h_mocne__ho_s__lechticke__ho_rodu__ktery___neme__l_v_c__echa__ch_obdoby.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/roz__mberkove___pr__i__be__h_mocne__ho_s__lechticke__ho_rodu__ktery___neme__l_v_c__echa__ch_obdoby.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/roz__mberkove___pr__i__be__h_mocne__ho_s__lechticke__ho_rodu__ktery___neme__l_v_c__echa__ch_obdoby.png" />
     </item>
   </channel>
 </rss>
