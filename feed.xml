@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Thu, 30 Apr 2026 06:22:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 09:58:32 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matyáš Habsburský: Od bratrského sporu k pražské defenestraci</title>
+      <link>https://www.mincmistr.cz/blog/matyas-habsbursky--od-bratrskeho-sporu-k-prazske-defenestraci/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/matyas-habsbursky--od-bratrskeho-sporu-k-prazske-defenestraci/</guid>
+      <pubDate>Thu, 30 Apr 2026 07:54:58 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___habsbursky___od_bratrske__ho_sporu_k_praz__ske___defenestraci.png" alt="" /><p>Když roku 1612 usedl Matyáš Habsburský na císařský trůn, držel již českou i uherskou královskou korunu a stal se hlavou rodu ovládajícího podstatnou č...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___habsbursky___od_bratrske__ho_sporu_k_praz__ske___defenestraci.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___habsbursky___od_bratrske__ho_sporu_k_praz__ske___defenestraci.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___habsbursky___od_bratrske__ho_sporu_k_praz__ske___defenestraci.png" />
+    </item>
     <item>
       <title>Svobodní zednáři: Tajný řád, který fascinoval i děsil Evropu</title>
       <link>https://www.mincmistr.cz/blog/svobodni-zednari--tajny-rad--ktery-fascinoval-i-desil-evropu/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/poha__dkovy___kra__l_z_neuschwansteinu_-_ludvi__k_ii._a_trage__die_s__i__lene__ho_kra__le.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/poha__dkovy___kra__l_z_neuschwansteinu_-_ludvi__k_ii._a_trage__die_s__i__lene__ho_kra__le.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/poha__dkovy___kra__l_z_neuschwansteinu_-_ludvi__k_ii._a_trage__die_s__i__lene__ho_kra__le.png" />
-    </item>
-    <item>
-      <title>Od Athén po Syrakusy: Příběhy řeckých městských států vyražené do stříbra</title>
-      <link>https://www.mincmistr.cz/blog/od-athen-po-syrakusy--pribehy-reckych-mestskych-statu-vyrazene-do-stribra/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/od-athen-po-syrakusy--pribehy-reckych-mestskych-statu-vyrazene-do-stribra/</guid>
-      <pubDate>Mon, 02 Feb 2026 18:08:41 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_athe__n_po_syrakusy_-_pr__i__be__hy_r__ecky__ch_me__stsky__ch_sta__tu___vyraz__ene___do_str__i__bra.png" alt="" /><p>Když dnes vyslovíme slovo „Řecko", většina z nás si představí jednotný stát s hlavním městem Athénami. Antická realita však vypadala zcela jinak. Řeck...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_athe__n_po_syrakusy_-_pr__i__be__hy_r__ecky__ch_me__stsky__ch_sta__tu___vyraz__ene___do_str__i__bra.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_athe__n_po_syrakusy_-_pr__i__be__hy_r__ecky__ch_me__stsky__ch_sta__tu___vyraz__ene___do_str__i__bra.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_athe__n_po_syrakusy_-_pr__i__be__hy_r__ecky__ch_me__stsky__ch_sta__tu___vyraz__ene___do_str__i__bra.png" />
     </item>
   </channel>
 </rss>
