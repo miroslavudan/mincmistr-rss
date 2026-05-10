@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 10 May 2026 20:38:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 22:37:12 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matyáš Korvín: Havran, který chtěl ovládnout střední Evropu</title>
+      <link>https://www.mincmistr.cz/blog/matyas-korvin--havran--ktery-chtel-ovladnout-stredni-evropu/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/matyas-korvin--havran--ktery-chtel-ovladnout-stredni-evropu/</guid>
+      <pubDate>Sun, 10 May 2026 21:18:45 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___korvi__n_havran__ktery___chte__l_ovla__dnout_str__edni___evropu.png" alt="" /><p>Vídeň, rok 1485. Město, které pozdější dějiny pevně spojí s Habsburky, právě otevřelo brány uherskému králi. Matyáš Korvín, muž s havranem ve znaku, v...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___korvi__n_havran__ktery___chte__l_ovla__dnout_str__edni___evropu.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___korvi__n_havran__ktery___chte__l_ovla__dnout_str__edni___evropu.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___korvi__n_havran__ktery___chte__l_ovla__dnout_str__edni___evropu.png" />
+    </item>
     <item>
       <title>Matyáš Habsburský: Od bratrského sporu k pražské defenestraci</title>
       <link>https://www.mincmistr.cz/blog/matyas-habsbursky--od-bratrskeho-sporu-k-prazske-defenestraci/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tr__icetileta___va__lka_od_praz__ske___defenestrace_k_nejnic__ive__js__i__mu_konfliktu_evropy.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tr__icetileta___va__lka_od_praz__ske___defenestrace_k_nejnic__ive__js__i__mu_konfliktu_evropy.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tr__icetileta___va__lka_od_praz__ske___defenestrace_k_nejnic__ive__js__i__mu_konfliktu_evropy.png" />
-    </item>
-    <item>
-      <title>Pohádkový král z Neuschwansteinu: Ludvík II. a tragédie mezi snem a šílenstvím</title>
-      <link>https://www.mincmistr.cz/blog/pohadkovy-kral-z-neuschwansteinu--ludvik-ii--a-tragedie-mezi-snem-a-silenstvim/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/pohadkovy-kral-z-neuschwansteinu--ludvik-ii--a-tragedie-mezi-snem-a-silenstvim/</guid>
-      <pubDate>Sun, 15 Feb 2026 13:18:01 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/poha__dkovy___kra__l_z_neuschwansteinu_-_ludvi__k_ii._a_trage__die_s__i__lene__ho_kra__le.png" alt="" /><p>Když 10. března 1864 zemřel bavorský král Maximilián II. Bavorský, na trůn nastoupil jeho osmnáctiletý syn. Byl vysoký, pohledný a plný ideálů – a cel...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/poha__dkovy___kra__l_z_neuschwansteinu_-_ludvi__k_ii._a_trage__die_s__i__lene__ho_kra__le.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/poha__dkovy___kra__l_z_neuschwansteinu_-_ludvi__k_ii._a_trage__die_s__i__lene__ho_kra__le.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/poha__dkovy___kra__l_z_neuschwansteinu_-_ludvi__k_ii._a_trage__die_s__i__lene__ho_kra__le.png" />
     </item>
   </channel>
 </rss>
