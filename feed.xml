@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Mon, 18 May 2026 07:54:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 11:37:40 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caligula: Od miláčka legií k postrachu Říma</title>
+      <link>https://www.mincmistr.cz/blog/caligula--od-milacka-legii-k-postrachu-rima/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/caligula--od-milacka-legii-k-postrachu-rima/</guid>
+      <pubDate>Mon, 18 May 2026 09:03:55 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/caligula_od_mila__c__ka_legii___k_postrachu_r__i__ma.png" alt="" /><p>Roku 41 našeho letopočtu byl v palácovém komplexu na Palatinu zavražděn muž, který byl ještě před čtyřmi lety vítán jako naděje Římské říše. Jmenoval ...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/caligula_od_mila__c__ka_legii___k_postrachu_r__i__ma.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/caligula_od_mila__c__ka_legii___k_postrachu_r__i__ma.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/caligula_od_mila__c__ka_legii___k_postrachu_r__i__ma.png" />
+    </item>
     <item>
       <title>Matyáš Korvín: Havran, který chtěl ovládnout střední Evropu</title>
       <link>https://www.mincmistr.cz/blog/matyas-korvin--havran--ktery-chtel-ovladnout-stredni-evropu/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_zac__i__t_sbi__rat_mince_-_pru__vodce_pro_zac__a__tec__ni__ky.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_zac__i__t_sbi__rat_mince_-_pru__vodce_pro_zac__a__tec__ni__ky.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_zac__i__t_sbi__rat_mince_-_pru__vodce_pro_zac__a__tec__ni__ky.png" />
-    </item>
-    <item>
-      <title>Třicetiletá válka: Od pražské defenestrace k nejničivějšímu konfliktu Evropy</title>
-      <link>https://www.mincmistr.cz/blog/tricetileta-valka--od-prazske-defenestrace-k-nejnicivejsimu-konfliktu-evropy/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/tricetileta-valka--od-prazske-defenestrace-k-nejnicivejsimu-konfliktu-evropy/</guid>
-      <pubDate>Fri, 20 Feb 2026 13:53:39 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tr__icetileta___va__lka_od_praz__ske___defenestrace_k_nejnic__ive__js__i__mu_konfliktu_evropy.png" alt="" /><p>Třicet let trvalo, než se Evropa vyčerpala natolik, aby usedla k jednacímu stolu. Třicetiletá válka (1618–1648) začala jako náboženský spor v Čechách,...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tr__icetileta___va__lka_od_praz__ske___defenestrace_k_nejnic__ive__js__i__mu_konfliktu_evropy.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tr__icetileta___va__lka_od_praz__ske___defenestrace_k_nejnic__ive__js__i__mu_konfliktu_evropy.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tr__icetileta___va__lka_od_praz__ske___defenestrace_k_nejnic__ive__js__i__mu_konfliktu_evropy.png" />
     </item>
   </channel>
 </rss>
