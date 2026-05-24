@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 24 May 2026 14:55:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 16:53:01 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pět vzácných mincí našich dějin: Drobné, za které sběratelé platí statisíce</title>
+      <link>https://www.mincmistr.cz/tipy-triky/pet-vzacnych-minci-nasich-dejin--drobne--za-ktere-sberatele-plati-statisice/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/tipy-triky/pet-vzacnych-minci-nasich-dejin--drobne--za-ktere-sberatele-plati-statisice/</guid>
+      <pubDate>Sun, 24 May 2026 17:45:55 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pe__t_vza__cny__ch_minci___nas__ich_de__jin_-_drobne____za_ktere___sbe__ratele___plati___statisi__ce.png" alt="" /><p>Na první pohled nepůsobí nijak výjimečně. Žádné zlato, žádný majestátní tolar, žádný honosný portrét na lícní straně. Jen pětihaléř, dvacetipětihaléř,...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pe__t_vza__cny__ch_minci___nas__ich_de__jin_-_drobne____za_ktere___sbe__ratele___plati___statisi__ce.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pe__t_vza__cny__ch_minci___nas__ich_de__jin_-_drobne____za_ktere___sbe__ratele___plati___statisi__ce.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pe__t_vza__cny__ch_minci___nas__ich_de__jin_-_drobne____za_ktere___sbe__ratele___plati___statisi__ce.png" />
+    </item>
     <item>
       <title>Caligula: Od miláčka legií k postrachu Říma</title>
       <link>https://www.mincmistr.cz/blog/caligula--od-milacka-legii-k-postrachu-rima/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" />
-    </item>
-    <item>
-      <title>Jak začít sbírat mince bez zbytečných chyb: Průvodce pro začátečníky</title>
-      <link>https://www.mincmistr.cz/tipy-triky/jak-zacit-sbirat-mince-bez-zbytecnych-chyb--pruvodce-pro-zacatecniky/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/tipy-triky/jak-zacit-sbirat-mince-bez-zbytecnych-chyb--pruvodce-pro-zacatecniky/</guid>
-      <pubDate>Mon, 23 Feb 2026 13:29:44 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_zac__i__t_sbi__rat_mince_-_pru__vodce_pro_zac__a__tec__ni__ky.png" alt="" /><p>Stříbrný groš, který se vejde do dlaně, může vážit pár gramů – a přitom nést stovky a tisíce příběhů starých půl tisíciletí. Právě v tom spočívá zvláš...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_zac__i__t_sbi__rat_mince_-_pru__vodce_pro_zac__a__tec__ni__ky.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_zac__i__t_sbi__rat_mince_-_pru__vodce_pro_zac__a__tec__ni__ky.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_zac__i__t_sbi__rat_mince_-_pru__vodce_pro_zac__a__tec__ni__ky.png" />
     </item>
   </channel>
 </rss>
