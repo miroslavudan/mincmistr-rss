@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 31 May 2026 16:56:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 19:03:15 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ferdinand V. Dobrotivý: Poslední korunovaný český král</title>
+      <link>https://www.mincmistr.cz/blog/ferdinand-v--dobrotivy--posledni-korunovany-cesky-kral/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/ferdinand-v--dobrotivy--posledni-korunovany-cesky-kral/</guid>
+      <pubDate>Sun, 31 May 2026 20:03:27 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_v._dobrotivy___posledni___korunovany___c__esky___kra__l.png" alt="" /><p>Praha, 7. září 1836. Katedrálou svatého Víta zní slavnostní zpěv, šlechta ve slavnostních oděvech sleduje starobylý obřad a na hlavu panovníka je vklá...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_v._dobrotivy___posledni___korunovany___c__esky___kra__l.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_v._dobrotivy___posledni___korunovany___c__esky___kra__l.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_v._dobrotivy___posledni___korunovany___c__esky___kra__l.png" />
+    </item>
     <item>
       <title>Pět vzácných mincí našich dějin: Drobné, za které sběratelé platí statisíce</title>
       <link>https://www.mincmistr.cz/tipy-triky/pet-vzacnych-minci-nasich-dejin--drobne--za-ktere-sberatele-plati-statisice/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/marcus_aurelius_-_posledni______dobry___ci__sar______v_nejtvrds__i__ch_letech_r__i__mske___r__i__s__e.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/marcus_aurelius_-_posledni______dobry___ci__sar______v_nejtvrds__i__ch_letech_r__i__mske___r__i__s__e.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/marcus_aurelius_-_posledni______dobry___ci__sar______v_nejtvrds__i__ch_letech_r__i__mske___r__i__s__e.png" />
-    </item>
-    <item>
-      <title>Tajemná Artia: Pamětní sady medailí a numismatika pod socialistickým dohledem</title>
-      <link>https://www.mincmistr.cz/blog/tajemna-artia--pametni-sady-medaili-a-numismatika-pod-socialistickym-dohledem/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/tajemna-artia--pametni-sady-medaili-a-numismatika-pod-socialistickym-dohledem/</guid>
-      <pubDate>Fri, 27 Feb 2026 08:40:04 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" alt="" /><p>Luxusní dřevěná etue, uvnitř sametová výstelka a v ní zlaté medaile s leštěnými plochami. Na víku státní znak, uvnitř číslovaný certifikát s názvem fi...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/tajemna___artia_-_pame__tni___sady_medaili___a_numismatika_pod_sta__tni__m_dohledem.png" />
     </item>
   </channel>
 </rss>
