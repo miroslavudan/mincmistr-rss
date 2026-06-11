@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Thu, 11 Jun 2026 13:52:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 17:32:12 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konečně pořádek ve vaší sbírce: Představujeme OutOfDark</title>
+      <link>https://www.mincmistr.cz/tipy-triky/konecne-poradek-ve-vasi-sbirce--predstavujeme-outofdark/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/tipy-triky/konecne-poradek-ve-vasi-sbirce--predstavujeme-outofdark/</guid>
+      <pubDate>Thu, 11 Jun 2026 15:09:54 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/konec__ne___por__a__dek_ve_vas__i___sbi__rce_pr__edstavujeme_outofdark.png" alt="" /><p>Kolik mincí vlastně mám? Kde jsou fotky té poslední? Za kolik jsem ji tenkrát koupil – a jakou hodnotu má celá sbírka dnes? Každý sběratel má rád poř...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/konec__ne___por__a__dek_ve_vas__i___sbi__rce_pr__edstavujeme_outofdark.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/konec__ne___por__a__dek_ve_vas__i___sbi__rce_pr__edstavujeme_outofdark.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/konec__ne___por__a__dek_ve_vas__i___sbi__rce_pr__edstavujeme_outofdark.png" />
+    </item>
     <item>
       <title>Ferdinand V. Dobrotivý: Poslední korunovaný český král</title>
       <link>https://www.mincmistr.cz/blog/ferdinand-v--dobrotivy--posledni-korunovany-cesky-kral/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/leopold_ii._-_posledni___rozumny___ci__sar___pr__ed_revoluc__ni___bour__i__.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/leopold_ii._-_posledni___rozumny___ci__sar___pr__ed_revoluc__ni___bour__i__.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/leopold_ii._-_posledni___rozumny___ci__sar___pr__ed_revoluc__ni___bour__i__.png" />
-    </item>
-    <item>
-      <title>Marcus Aurelius: Poslední „dobrý císař“ v nejtvrdších letech římské říše</title>
-      <link>https://www.mincmistr.cz/blog/marcus-aurelius--posledni--dobry-cisar--v-nejtvrdsich-letech-rimske-rise/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/marcus-aurelius--posledni--dobry-cisar--v-nejtvrdsich-letech-rimske-rise/</guid>
-      <pubDate>Sun, 01 Mar 2026 16:23:37 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/marcus_aurelius_-_posledni______dobry___ci__sar______v_nejtvrds__i__ch_letech_r__i__mske___r__i__s__e.png" alt="" /><p>Kolem roku 120 po Kristu se v přístavu Ostia vykládá obilí z Egypta, legionáři na Dunaji kontrolují pohraniční hlídky a v římských ulicích se běžně pl...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/marcus_aurelius_-_posledni______dobry___ci__sar______v_nejtvrds__i__ch_letech_r__i__mske___r__i__s__e.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/marcus_aurelius_-_posledni______dobry___ci__sar______v_nejtvrds__i__ch_letech_r__i__mske___r__i__s__e.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/marcus_aurelius_-_posledni______dobry___ci__sar______v_nejtvrds__i__ch_letech_r__i__mske___r__i__s__e.png" />
     </item>
   </channel>
 </rss>
