@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 14 Jun 2026 08:08:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 11:49:18 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boleslav I.: Bratrovrah, který pomohl zrodit český stát</title>
+      <link>https://www.mincmistr.cz/blog/boleslav-i-bratrovrah--ktery-pomohl-zrodit-cesky-stat/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/boleslav-i-bratrovrah--ktery-pomohl-zrodit-cesky-stat/</guid>
+      <pubDate>Sun, 14 Jun 2026 09:19:20 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/boleslav_i.-_bratrovrah__ktery___pomohl_zrodit_c__esky___sta__t.jpg" alt="" /><p>Když dnes vyjdete na Václavské náměstí, díváte se na jezdeckou sochu světce, který se stal jedním z nejpevnějších symbolů českých dějin. Kdyby ale čes...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/boleslav_i.-_bratrovrah__ktery___pomohl_zrodit_c__esky___sta__t.jpg" length="0" type="image/jpeg" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/boleslav_i.-_bratrovrah__ktery___pomohl_zrodit_c__esky___sta__t.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/boleslav_i.-_bratrovrah__ktery___pomohl_zrodit_c__esky___sta__t.jpg" />
+    </item>
     <item>
       <title>Konečně pořádek ve vaší sbírce: Představujeme OutOfDark</title>
       <link>https://www.mincmistr.cz/tipy-triky/konecne-poradek-ve-vasi-sbirce--predstavujeme-outofdark/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_se_hodnoti___kvalita_a_zachovalost_minci__-2.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_se_hodnoti___kvalita_a_zachovalost_minci__-2.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_se_hodnoti___kvalita_a_zachovalost_minci__-2.png" />
-    </item>
-    <item>
-      <title>Leopold II.: Císař, který přišel příliš pozdě a odešel příliš brzy</title>
-      <link>https://www.mincmistr.cz/blog/leopold-ii-cisar--ktery-prisel-prilis-pozde-a-odesel-prilis-brzy/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/leopold-ii-cisar--ktery-prisel-prilis-pozde-a-odesel-prilis-brzy/</guid>
-      <pubDate>Mon, 09 Mar 2026 14:49:01 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/leopold_ii._-_posledni___rozumny___ci__sar___pr__ed_revoluc__ni___bour__i__.png" alt="" /><p>Prvního března 1792 zemřel ve Vídni císař, který vládl habsburské monarchii těsně přes dva roky. Nezanechal po sobě velké války, slavné bitvy ani epoc...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/leopold_ii._-_posledni___rozumny___ci__sar___pr__ed_revoluc__ni___bour__i__.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/leopold_ii._-_posledni___rozumny___ci__sar___pr__ed_revoluc__ni___bour__i__.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/leopold_ii._-_posledni___rozumny___ci__sar___pr__ed_revoluc__ni___bour__i__.png" />
     </item>
   </channel>
 </rss>
