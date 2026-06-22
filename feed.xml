@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Mon, 22 Jun 2026 09:38:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 15:13:24 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otto von Bismarck: Kancléř, který krví a železem sjednotil Německo</title>
+      <link>https://www.mincmistr.cz/blog/otto-von-bismarck--kancler--ktery-krvi-a-zelezem-sjednotil-nemecko/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/otto-von-bismarck--kancler--ktery-krvi-a-zelezem-sjednotil-nemecko/</guid>
+      <pubDate>Mon, 22 Jun 2026 12:40:11 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/otto_von_bismarck_kancle__r____ktery___krvi___a_z__elezem_sjednotil_ne__mecko.png" alt="" /><p>Když bylo 18. ledna 1871 v Zrcadlovém sále versailleského zámku vyhlášeno Německé císařství, nešlo zdaleka jen o vítězství armády. Byl to vrchol polit...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/otto_von_bismarck_kancle__r____ktery___krvi___a_z__elezem_sjednotil_ne__mecko.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/otto_von_bismarck_kancle__r____ktery___krvi___a_z__elezem_sjednotil_ne__mecko.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/otto_von_bismarck_kancle__r____ktery___krvi___a_z__elezem_sjednotil_ne__mecko.png" />
+    </item>
     <item>
       <title>Boleslav I.: Bratrovrah, který pomohl zrodit český stát</title>
       <link>https://www.mincmistr.cz/blog/boleslav-i-bratrovrah--ktery-pomohl-zrodit-cesky-stat/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" />
-    </item>
-    <item>
-      <title>Jak funguje a co znamená NGC/PCGS certifikace mincí</title>
-      <link>https://www.mincmistr.cz/tipy-triky/jak-funguje-a-co-znamena-ngc-pcgs-certifikace-minci/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/tipy-triky/jak-funguje-a-co-znamena-ngc-pcgs-certifikace-minci/</guid>
-      <pubDate>Fri, 13 Mar 2026 23:52:47 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_se_hodnoti___kvalita_a_zachovalost_minci__-2.png" alt="" /><p>Pokud jste někdy procházeli nabídky mincí v aukčních domech, na zahraničních burzách nebo přímo v e-shopech, s největší pravděpodobností jste narazili...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_se_hodnoti___kvalita_a_zachovalost_minci__-2.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_se_hodnoti___kvalita_a_zachovalost_minci__-2.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_se_hodnoti___kvalita_a_zachovalost_minci__-2.png" />
     </item>
   </channel>
 </rss>
