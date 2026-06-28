@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 28 Jun 2026 16:58:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 19:02:36 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alžběta I.: Život a zlatý věk panenské královny</title>
+      <link>https://www.mincmistr.cz/blog/alzbeta-i-zivot-a-zlaty-vek-panenske-kralovny/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/alzbeta-i-zivot-a-zlaty-vek-panenske-kralovny/</guid>
+      <pubDate>Sun, 28 Jun 2026 20:18:57 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/alz__be__ta_i._z__ivot_a_zlaty___ve__k_panenske___kra__lovny.png" alt="" /><p>Když v listopadu roku 1558 usedla na anglický trůn pětadvacetiletá Alžběta I., jen málokdo by vsadil na to, že její vláda potrvá téměř půl století a v...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/alz__be__ta_i._z__ivot_a_zlaty___ve__k_panenske___kra__lovny.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/alz__be__ta_i._z__ivot_a_zlaty___ve__k_panenske___kra__lovny.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/alz__be__ta_i._z__ivot_a_zlaty___ve__k_panenske___kra__lovny.png" />
+    </item>
     <item>
       <title>Otto von Bismarck: Kancléř, který krví a železem sjednotil Německo</title>
       <link>https://www.mincmistr.cz/blog/otto-von-bismarck--kancler--ktery-krvi-a-zelezem-sjednotil-nemecko/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jan_jir__i___i._sasky___kurfir__t_mezi_ci__sar__em__vi__rou_a_chaosem_va__lky.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jan_jir__i___i._sasky___kurfir__t_mezi_ci__sar__em__vi__rou_a_chaosem_va__lky.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jan_jir__i___i._sasky___kurfir__t_mezi_ci__sar__em__vi__rou_a_chaosem_va__lky.png" />
-    </item>
-    <item>
-      <title>Ferdinand I.: Muž, který po Moháči skládal nový řád ve střední Evropě</title>
-      <link>https://www.mincmistr.cz/blog/ferdinand-i-muz--ktery-po-mohaci-skladal-novy-rad-ve-stredni-evrope/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/ferdinand-i-muz--ktery-po-mohaci-skladal-novy-rad-ve-stredni-evrope/</guid>
-      <pubDate>Sun, 15 Mar 2026 08:48:00 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" alt="" /><p>Rok 1526 nepřinesl Evropě jen jednu katastrofu. Přinesl jich hned několik najednou. Turecké armády Sulejmana I. Nádherného rozdrtily uherské vojsko na...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_i._-_muz____ktery___po_moha__c__i_skla__dal_novy___r__a__d_ve_str__edni___evrope__.png" />
     </item>
   </channel>
 </rss>
