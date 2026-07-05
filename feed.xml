@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 05 Jul 2026 16:55:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 19:01:51 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zikmund Lucemburský: Liška ryšavá ve stínu Husovy hranice</title>
+      <link>https://www.mincmistr.cz/blog/zikmund-lucembursky--liska-rysava-ve-stinu-husovy-hranice/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/zikmund-lucembursky--liska-rysava-ve-stinu-husovy-hranice/</guid>
+      <pubDate>Sun, 05 Jul 2026 17:36:50 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/zikmund_lucembursky___syn_karla_iv.__ktery___zde__dil_r__i__s__i_i_nena__vist_c__echu__.png" alt="" /><p>V roce 1755 narazili kopáči studny ve zbořeništi katedrály ve Velkém Varadíně na hrob muže s korunou na hlavě, říšským jablkem v ruce a odznakem rytíř...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/zikmund_lucembursky___syn_karla_iv.__ktery___zde__dil_r__i__s__i_i_nena__vist_c__echu__.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/zikmund_lucembursky___syn_karla_iv.__ktery___zde__dil_r__i__s__i_i_nena__vist_c__echu__.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/zikmund_lucembursky___syn_karla_iv.__ktery___zde__dil_r__i__s__i_i_nena__vist_c__echu__.png" />
+    </item>
     <item>
       <title>Alžběta I.: Život a zlatý věk panenské královny</title>
       <link>https://www.mincmistr.cz/blog/alzbeta-i-zivot-a-zlaty-vek-panenske-kralovny/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_poznat_pade__lek_str__i__brne___mince.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_poznat_pade__lek_str__i__brne___mince.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_poznat_pade__lek_str__i__brne___mince.png" />
-    </item>
-    <item>
-      <title>Jan Jiří I. Saský: Kurfiřt mezi císařem, vírou a chaosem války</title>
-      <link>https://www.mincmistr.cz/blog/jan-jiri-i--sasky--kurfirt-mezi-cisarem--virou-a-chaosem-valky/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/jan-jiri-i--sasky--kurfirt-mezi-cisarem--virou-a-chaosem-valky/</guid>
-      <pubDate>Mon, 23 Mar 2026 14:05:07 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jan_jir__i___i._sasky___kurfir__t_mezi_ci__sar__em__vi__rou_a_chaosem_va__lky.png" alt="" /><p>Na saském kurfiřtském trůně seděl téměř půl století. Přežil kolaps měny, ničivé přesuny vojsk, rozpad starého říšského řádu i samotnou třicetiletou vá...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jan_jir__i___i._sasky___kurfir__t_mezi_ci__sar__em__vi__rou_a_chaosem_va__lky.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jan_jir__i___i._sasky___kurfir__t_mezi_ci__sar__em__vi__rou_a_chaosem_va__lky.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jan_jir__i___i._sasky___kurfir__t_mezi_ci__sar__em__vi__rou_a_chaosem_va__lky.png" />
     </item>
   </channel>
 </rss>
