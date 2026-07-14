@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Tue, 14 Jul 2026 13:08:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 15:16:35 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Princ Evžen Savojský: Meč Habsburků, který změnil tvář Evropy</title>
+      <link>https://www.mincmistr.cz/blog/princ-evzen-savojsky--mec-habsburku--ktery-zmenil-tvar-evropy/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/princ-evzen-savojsky--mec-habsburku--ktery-zmenil-tvar-evropy/</guid>
+      <pubDate>Tue, 14 Jul 2026 15:59:10 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/princ_evz__en_savojsky___mec___habsburku____ktery___zme__nil_tva__r___evropy.png" alt="" /><p>V únoru 1683 stál před francouzským králem drobný, nevzhledný devatenáctiletý mladík a žádal o velení nad jízdní rotou. Ludvík XIV. ho odmítl s pohrdá...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/princ_evz__en_savojsky___mec___habsburku____ktery___zme__nil_tva__r___evropy.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/princ_evz__en_savojsky___mec___habsburku____ktery___zme__nil_tva__r___evropy.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/princ_evz__en_savojsky___mec___habsburku____ktery___zme__nil_tva__r___evropy.png" />
+    </item>
     <item>
       <title>Zikmund Lucemburský: Liška ryšavá ve stínu Husovy hranice</title>
       <link>https://www.mincmistr.cz/blog/zikmund-lucembursky--liska-rysava-ve-stinu-husovy-hranice/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/va__clav_iv._tragicky___de__dic_odkazu_karla_iv.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/va__clav_iv._tragicky___de__dic_odkazu_karla_iv.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/va__clav_iv._tragicky___de__dic_odkazu_karla_iv.png" />
-    </item>
-    <item>
-      <title>Jak poznat pravost mince</title>
-      <link>https://www.mincmistr.cz/tipy-triky/jak-poznat-pravost-mince/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/tipy-triky/jak-poznat-pravost-mince/</guid>
-      <pubDate>Sat, 28 Mar 2026 16:23:23 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_poznat_pade__lek_str__i__brne___mince.png" alt="" /><p>Otázka pravosti mince se dříve nebo později dotkne každého, kdo se o mince zajímá. Ať už jste zdědili sbírku po příbuzném, chystáte se koupit svou prv...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_poznat_pade__lek_str__i__brne___mince.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_poznat_pade__lek_str__i__brne___mince.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jak_poznat_pade__lek_str__i__brne___mince.png" />
     </item>
   </channel>
 </rss>
