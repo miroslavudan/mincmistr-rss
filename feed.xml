@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 02 Aug 2026 16:47:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 18:55:06 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kardinál Richelieu: Dumasův padouch a architekt moderní Francie</title>
+      <link>https://www.mincmistr.cz/blog/kardinal-richelieu--dumasuv-padouch-a-architekt-moderni-francie/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/kardinal-richelieu--dumasuv-padouch-a-architekt-moderni-francie/</guid>
+      <pubDate>Sun, 02 Aug 2026 19:36:07 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/kardina__l_richelieu_dumasu__v_padouch_a_architekt_moderni___francie.png" alt="" /><p>Když 5. prosince 1793 vtrhl revoluční dav do kaple Sorbonny, obracel svůj hněv proti jednomu z nejvýraznějších symbolů monarchie a starého režimu. Kar...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/kardina__l_richelieu_dumasu__v_padouch_a_architekt_moderni___francie.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/kardina__l_richelieu_dumasu__v_padouch_a_architekt_moderni___francie.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/kardina__l_richelieu_dumasu__v_padouch_a_architekt_moderni___francie.png" />
+    </item>
     <item>
       <title>Josef I.: Zapomenutý Habsburk, který změnil rovnováhu Evropy</title>
       <link>https://www.mincmistr.cz/blog/josef-i-zapomenuty-habsburk--ktery-zmenil-rovnovahu-evropy/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jez__i__s___kristus_kazatel_z_galileje__ktery___zme__nil_sve__t.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jez__i__s___kristus_kazatel_z_galileje__ktery___zme__nil_sve__t.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jez__i__s___kristus_kazatel_z_galileje__ktery___zme__nil_sve__t.png" />
-    </item>
-    <item>
-      <title>Albrecht II. Habsburský: Mezi lucemburským dědictvím a habsburskou budoucností</title>
-      <link>https://www.mincmistr.cz/blog/albrecht-ii--habsbursky--mezi-lucemburskym-dedictvim-a-habsburskou-budoucnosti/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/albrecht-ii--habsbursky--mezi-lucemburskym-dedictvim-a-habsburskou-budoucnosti/</guid>
-      <pubDate>Thu, 02 Apr 2026 09:13:31 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_ii._habsbursky___mezi_lucembursky__m_de__dictvi__m_a_habsburskou_budoucnosti__.png" alt="" /><p>Na sklonku roku 1437 zemřel v moravském Znojmě Zikmund Lucemburský, poslední mužský potomek dynastie, která po tři generace utvářela tvář střední Evro...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_ii._habsbursky___mezi_lucembursky__m_de__dictvi__m_a_habsburskou_budoucnosti__.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_ii._habsbursky___mezi_lucembursky__m_de__dictvi__m_a_habsburskou_budoucnosti__.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_ii._habsbursky___mezi_lucembursky__m_de__dictvi__m_a_habsburskou_budoucnosti__.png" />
     </item>
   </channel>
 </rss>
