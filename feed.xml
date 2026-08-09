@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 09 Aug 2026 18:25:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 20:20:04 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maxmilián II.: Císař mezi křížem, půlměsícem a tolarem</title>
+      <link>https://www.mincmistr.cz/blog/maxmilian-ii-cisar-mezi-krizem--pulmesicem-a-tolarem/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/maxmilian-ii-cisar-mezi-krizem--pulmesicem-a-tolarem/</guid>
+      <pubDate>Sun, 09 Aug 2026 20:00:17 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/maxmilia__n_ii._ci__sar___mezi_kr__i__z__em__pu__lme__si__cem_a_tolarem.png" alt="" /><p>Dvanáctého října 1576 ležel v Řezně umírající císař a odmítal poslední svátosti. Žádná zpověď, žádné poslední pomazání. Pro současníky to byla posledn...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/maxmilia__n_ii._ci__sar___mezi_kr__i__z__em__pu__lme__si__cem_a_tolarem.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/maxmilia__n_ii._ci__sar___mezi_kr__i__z__em__pu__lme__si__cem_a_tolarem.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/maxmilia__n_ii._ci__sar___mezi_kr__i__z__em__pu__lme__si__cem_a_tolarem.png" />
+    </item>
     <item>
       <title>Kardinál Richelieu: Dumasův padouch a architekt moderní Francie</title>
       <link>https://www.mincmistr.cz/blog/kardinal-richelieu--dumasuv-padouch-a-architekt-moderni-francie/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/nejzna__me__js__i___raz__by_c__esky__ch_panovni__ku___-_mince_jako_zrcadlo_de__jin.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/nejzna__me__js__i___raz__by_c__esky__ch_panovni__ku___-_mince_jako_zrcadlo_de__jin.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/nejzna__me__js__i___raz__by_c__esky__ch_panovni__ku___-_mince_jako_zrcadlo_de__jin.png" />
-    </item>
-    <item>
-      <title>Ježíš Kristus: Kazatel z Galileje, který změnil svět</title>
-      <link>https://www.mincmistr.cz/blog/jezis-kristus--kazatel-z-galileje--ktery-zmenil-svet/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/jezis-kristus--kazatel-z-galileje--ktery-zmenil-svet/</guid>
-      <pubDate>Sun, 05 Apr 2026 07:58:38 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jez__i__s___kristus_kazatel_z_galileje__ktery___zme__nil_sve__t.png" alt="" /><p>Kdo byl Ježíš Kristus? Odpověď závisí na tom, koho se zeptáte – teologa, historika, nebo sběratele starověkých mincí. Pro každého z nich má ta otázka ...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jez__i__s___kristus_kazatel_z_galileje__ktery___zme__nil_sve__t.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jez__i__s___kristus_kazatel_z_galileje__ktery___zme__nil_sve__t.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/jez__i__s___kristus_kazatel_z_galileje__ktery___zme__nil_sve__t.png" />
     </item>
   </channel>
 </rss>
