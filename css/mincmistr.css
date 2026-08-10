@@ -227,7 +227,7 @@
    Dlaždice doplňují blok v záhlaví, neopakují ho. Ikony jsou kreslené
    přímo tady, aby je editor obsahu nemohl zahodit.
    ------------------------------------------------------------------ */
-.welcome .mm-hero__title {
+.welcome-wrapper .welcome .mm-hero__title {
   font-size: 2.2em;
   font-weight: 600;
   line-height: 1.25;
@@ -288,7 +288,7 @@
 }
 
 @media (max-width: 767px) {
-  .welcome .mm-hero__title {font-size: 1.6em;}
+  .welcome-wrapper .welcome .mm-hero__title {font-size: 1.6em;}
   .welcome .mm-why {grid-template-columns: 1fr; gap: 12px;}
   .welcome .mm-why__item {padding: 14px 16px 14px 60px; min-height: 0;}
   .welcome .mm-why__item::before {left: 16px; top: 16px; width: 28px; height: 28px;}
