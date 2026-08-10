@@ -68,12 +68,14 @@
   padding: 0;
   margin: 0 0 24px;
   display: flex;
+  flex-direction: row;   /* the platform sets column here */
   flex-wrap: wrap;
   gap: 8px 10px;
 }
 .type-search .search-results-groups ul li {
   flex: 0 0 auto;
   margin: 0;
+  width: auto;
 }
 .type-search .search-results-groups ul li a {
   display: inline-block;
