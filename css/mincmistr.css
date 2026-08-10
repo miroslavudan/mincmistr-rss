@@ -233,7 +233,7 @@
   margin: 0 0 14px;
   text-align: center;
 }
-.welcome .mm-hero__perex {
+.welcome-wrapper .welcome .mm-hero__perex {
   max-width: 680px;
   margin: 0 auto 34px;
   text-align: center;
@@ -266,7 +266,7 @@
   line-height: 1.55;
   color: #4a4536;
 }
-.welcome .mm-why__cta {
+.welcome-wrapper .welcome .mm-why__cta {
   text-align: center;
   margin: 0 0 56px;
   font-size: 1.02em;
