@@ -268,7 +268,7 @@
 }
 .welcome .mm-why__cta {
   text-align: center;
-  margin: 0 0 40px;
+  margin: 0 0 56px;
   font-size: 1.02em;
 }
 .welcome .mm-why__cta strong {color: #6e432c;}
@@ -285,5 +285,5 @@
 @media (max-width: 767px) {
   .welcome .mm-hero__title {font-size: 1.55em;}
   .welcome .mm-why {grid-template-columns: 1fr; gap: 12px;}
-  .welcome .mm-why__cta a {display: block; margin: 8px 0 0;}
+  .welcome .mm-why__cta a {display: inline-block; margin: 10px 0 0;}
 }
