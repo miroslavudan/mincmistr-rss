@@ -224,12 +224,14 @@
 /* ------------------------------------------------------------------
    Titulní strana: hlavní nadpis + "Proč nakupovat u Mincmistra"
    Obsah je v administraci → Vzhled a obsah → Titulní strana (uvítací text).
-   Balíček 1 z auditu: titulka neměla nadpis, který by řekl, co e-shop je.
+   Dlaždice doplňují blok v záhlaví, neopakují ho. Ikony jsou kreslené
+   přímo tady, aby je editor obsahu nemohl zahodit.
    ------------------------------------------------------------------ */
 .welcome .mm-hero__title {
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: 600;
   line-height: 1.25;
+  text-transform: none;
   margin: 0 0 14px;
   text-align: center;
 }
@@ -245,15 +247,33 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 18px 26px;
   max-width: 940px;
-  margin: 0 auto 26px;
+  margin: 0 auto 46px;
   text-align: left;
 }
 .welcome .mm-why__item {
-  padding: 16px 18px 16px 20px;
+  position: relative;
+  padding: 16px 18px 16px 68px;
   border-left: 3px solid #b49856;
   background: #faf7f1;
   border-radius: 0 6px 6px 0;
+  min-height: 78px;
 }
+.welcome .mm-why__item::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: .9;
+}
+.welcome .mm-why__item--popis::before {background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23b49856%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M14%203H7a2%202%200%200%200-2%202v14a2%202%200%200%200%202%202h10a2%202%200%200%200%202-2V8z%22%2F%3E%3Cpath%20d%3D%22M14%203v5h5%22%2F%3E%3Cpath%20d%3D%22M9%2013h6M9%2017h4%22%2F%3E%3C%2Fsvg%3E");}
+.welcome .mm-why__item--odbornik::before {background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23b49856%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2210.5%22%20cy%3D%2210.5%22%20r%3D%226.5%22%2F%3E%3Cpath%20d%3D%22M15.5%2015.5%2021%2021%22%2F%3E%3Cpath%20d%3D%22M10.5%207.5v6M8%2010.5h5%22%2F%3E%3C%2Fsvg%3E");}
+.welcome .mm-why__item--prodejna::before {background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23b49856%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M3%209.5%205%204h14l2%205.5%22%2F%3E%3Cpath%20d%3D%22M4%209.5h16V20a1%201%200%200%201-1%201H5a1%201%200%200%201-1-1z%22%2F%3E%3Cpath%20d%3D%22M9%2021v-6h6v6%22%2F%3E%3C%2Fsvg%3E");}
+.welcome .mm-why__item--darek::before {background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23b49856%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M20%2012v8a1%201%200%200%201-1%201H5a1%201%200%200%201-1-1v-8%22%2F%3E%3Cpath%20d%3D%22M3%208h18v4H3z%22%2F%3E%3Cpath%20d%3D%22M12%2021V8%22%2F%3E%3Cpath%20d%3D%22M12%208S10.5%204%208.5%204a2.5%202.5%200%200%200%200%205M12%208s1.5-4%203.5-4a2.5%202.5%200%200%201%200%205%22%2F%3E%3C%2Fsvg%3E");}
 .welcome .mm-why__title {
   display: block;
   font-weight: 600;
@@ -266,24 +286,10 @@
   line-height: 1.55;
   color: #4a4536;
 }
-.welcome-wrapper .welcome .mm-why__cta {
-  text-align: center;
-  margin: 0 0 56px;
-  font-size: 1.02em;
-}
-.welcome .mm-why__cta strong {color: #6e432c;}
-.welcome .mm-why__cta a {
-  display: inline-block;
-  margin-left: 6px;
-  color: #6e432c;
-  border-bottom: 1px solid #b49856;
-  text-decoration: none;
-}
-.welcome .mm-why__cta a:hover,
-.welcome .mm-why__cta a:focus {border-bottom-color: #6e432c;}
 
 @media (max-width: 767px) {
-  .welcome .mm-hero__title {font-size: 1.55em;}
+  .welcome .mm-hero__title {font-size: 1.6em;}
   .welcome .mm-why {grid-template-columns: 1fr; gap: 12px;}
-  .welcome .mm-why__cta a {display: inline-block; margin: 10px 0 0;}
+  .welcome .mm-why__item {padding: 14px 16px 14px 60px; min-height: 0;}
+  .welcome .mm-why__item::before {left: 16px; top: 16px; width: 28px; height: 28px;}
 }
