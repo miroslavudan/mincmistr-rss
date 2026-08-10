@@ -148,16 +148,3 @@
 @media (max-width: 767px) {
   .type-search .search-results-group:has(a[href^="/blog/"]) ul {columns: 1;}
 }
-
-/* ---------------------------------------------------------------------------
- * Search autocomplete: same order as the results page – products first.
- * ClickUp 869eaz8pp. Not scoped to .type-search: the whisperer lives in the
- * header and shows up on every page.
- * ------------------------------------------------------------------------ */
-.search-whisperer {
-  display: flex !important;   /* platform CSS forces block; order needs flex */
-  flex-direction: column;
-}
-.search-whisperer > .search-whisperer-products {order: 1;}
-.search-whisperer > .search-whisperer-documents {order: 2;}
-.search-whisperer > .search-whisperer-documents:last-child {order: 3;}
