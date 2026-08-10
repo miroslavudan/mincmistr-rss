@@ -89,3 +89,107 @@
 .type-search .search-results-groups ul li a:hover {
   background: #f0e7d8;
 }
+
+/* ---------------------------------------------------------------------------
+ * Search results, second pass. ClickUp 869eaz8pp
+ *   - bigger section headings (Produkty / Kategorie / Články)
+ *   - articles as a multi-column list; as chips they were unreadable once a
+ *     query matched 30+ posts
+ *   - category chips carry the category thumbnail
+ * ------------------------------------------------------------------------ */
+
+/* section headings: the platform renders them as small h4 */
+.type-search .search-products-heading,
+.type-search .search-results-group > h4 {
+  font-size: 1.6em;
+  font-weight: 600;
+  margin: 0 0 16px;
+  color: #1c1917;
+}
+.type-search .search-results-group + .search-results-group {
+  margin-top: 32px;
+}
+
+/* --- articles: a readable list, not a wall of chips --------------------- */
+.type-search .search-results-group:has(a[href^="/blog/"]) ul {
+  display: block;
+  columns: 2;
+  column-gap: 48px;
+}
+.type-search .search-results-group:has(a[href^="/blog/"]) ul li {
+  display: block;
+  break-inside: avoid;
+  margin: 0 0 8px;
+}
+.type-search .search-results-group:has(a[href^="/blog/"]) ul li a {
+  display: inline;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  border-bottom: 1px solid transparent;
+}
+.type-search .search-results-group:has(a[href^="/blog/"]) ul li a:hover {
+  background: none;
+  border-bottom-color: currentColor;
+}
+@media (min-width: 1200px) {
+  .type-search .search-results-group:has(a[href^="/blog/"]) ul {columns: 3;}
+}
+@media (max-width: 767px) {
+  .type-search .search-results-group:has(a[href^="/blog/"]) ul {columns: 1;}
+}
+
+/* --- category chips with thumbnails ------------------------------------- */
+.type-search .search-results-group:not(:has(a[href^="/blog/"])) ul li a {
+  padding-left: 40px;
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  background-size: 24px 24px;
+  min-height: 34px;
+  display: inline-flex;
+  align-items: center;
+}
+.type-search .search-results-group a[href="/africke-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/krugerrand.jpg);}
+.type-search .search-results-group a[href="/americke-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/s-l1200.jpg);}
+.type-search .search-results-group a[href="/anticke-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/macedoine--statere-or--alexandre-iii-le-grand--amphipolis-revers-mo-2161_2-1024x1024.jpg);}
+.type-search .search-results-group a[href="/asijske-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/s-l400.jpg);}
+.type-search .search-results-group a[href="/bankovky-z-celeho-sveta/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/360_f_532969314_hjaysityd98ynvz68h6ek138de75zpno.jpg);}
+.type-search .search-results-group a[href="/bohemika/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/viky20080323-6-2.jpg);}
+.type-search .search-results-group a[href="/byzantske-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/byzanstka_mince.png);}
+.type-search .search-results-group a[href="/cechy-a-slovensko/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/grossi_pragenses_avers.jpg);}
+.type-search .search-results-group a[href="/ceske-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/ceska_1_koruna.jpg);}
+.type-search .search-results-group a[href="/ceskoslovenske-bankovky/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/4227a1.jpg);}
+.type-search .search-results-group a[href="/ceskoslovenske-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/1_1989_2b-1.jpg);}
+.type-search .search-results-group a[href="/evropske-bankovky/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/images.jpg);}
+.type-search .search-results-group a[href="/evropske-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/s-l400.png);}
+.type-search .search-results-group a[href="/francouzske-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/napoleon-mince.png);}
+.type-search .search-results-group a[href="/habsburske-razby/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/_vyrp15_2492bam_1001---3--3996548675-1707673785-1.jpg);}
+.type-search .search-results-group a[href="/investicni-platina/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/investic__ni___platina.png);}
+.type-search .search-results-group a[href="/investicni-stribro/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/stribro.jpg);}
+.type-search .search-results-group a[href="/investicni-zlato/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/zlaty_slitek.png);}
+.type-search .search-results-group a[href="/literatura/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/360_f_5862533_wq6ijrvm6vltub3aqirhc0asuk3eflos.jpg);}
+.type-search .search-results-group a[href="/mince-cely-svet/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/2003_sacagawea_rev.png);}
+.type-search .search-results-group a[href="/mince-ceskeho-kralovstvi/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/grossi_pragenses_avers-1.jpg);}
+.type-search .search-results-group a[href="/mince-ostatni-evropa/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/france.png);}
+.type-search .search-results-group a[href="/mince-protektoratu-cechy-a-morava/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/mince_protektora__tu_c__echy_a_morava.jpg);}
+.type-search .search-results-group a[href="/mince-prvni-republiky/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/ceskoslovenska_1_koruna.png);}
+.type-search .search-results-group a[href="/mince-z-makedonie/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/mincmistr.png);}
+.type-search .search-results-group a[href="/nemecke-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/7f444f007ca32678dc342ddde01aa129.jpeg);}
+.type-search .search-results-group a[href="/numismaticke-potreby/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/s-l400-1.jpg);}
+.type-search .search-results-group a[href="/pametni-medaile/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/pame__tni___medaile.png);}
+.type-search .search-results-group a[href="/pametni-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/psm_jawa_250-2.png);}
+.type-search .search-results-group a[href="/platinove-investicni-cihly-slitky/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/platina-1.png);}
+.type-search .search-results-group a[href="/platinove-investicni-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/platina_mince.jpg);}
+.type-search .search-results-group a[href="/rady-vyznamenani/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/r__a__dy.png);}
+.type-search .search-results-group a[href="/rakouske-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/rakousko_dukat.jpg);}
+.type-search .search-results-group a[href="/rimske-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/rimska_mince.png);}
+.type-search .search-results-group a[href="/ruske-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/rubl.jpg);}
+.type-search .search-results-group a[href="/slovenske-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/slovakia-1-koruna-1993.jpg);}
+.type-search .search-results-group a[href="/starorecke-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/recka_mince.png);}
+.type-search .search-results-group a[href="/stribrne-investicni-cihly-slitky/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/c400_001043-250g-argor-heraeus-sa-svycarsko-investicni-stribrny-slitek_01_det.png);}
+.type-search .search-results-group a[href="/stribrne-investicni-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/silver_coin.png);}
+.type-search .search-results-group a[href="/tolary/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/images-1.jpg);}
+.type-search .search-results-group a[href="/zlate-investicni-cihly-slitky/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/zlaty-slitek.jpg);}
+.type-search .search-results-group a[href="/zlate-investicni-mince/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/gestock2017o8299-1.jpeg);}
+.type-search .search-results-group a[href="/znamky-zetony/"] {background-image: url(https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/categories/thumb/chmelova___zna__mka.png);}
