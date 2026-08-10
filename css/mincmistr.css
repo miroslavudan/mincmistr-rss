@@ -142,7 +142,7 @@
 
 /* --- category chips with thumbnails ------------------------------------- */
 .type-search .search-results-group:not(:has(a[href^="/blog/"])) ul li a {
-  padding-left: 40px;
+  padding: 6px 14px 6px 40px;
   background-repeat: no-repeat;
   background-position: 8px center;
   background-size: 24px 24px;
