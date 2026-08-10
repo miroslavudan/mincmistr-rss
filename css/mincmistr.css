@@ -155,6 +155,7 @@
  * header and shows up on every page.
  * ------------------------------------------------------------------------ */
 .search-whisperer {
+  display: flex;          /* the platform renders it as a block; order needs flex */
   flex-direction: column;
 }
 .search-whisperer > .search-whisperer-products {order: 1;}
