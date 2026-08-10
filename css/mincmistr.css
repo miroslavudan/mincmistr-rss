@@ -71,6 +71,10 @@
   flex-wrap: wrap;
   gap: 8px 10px;
 }
+.type-search .search-results-groups ul li {
+  flex: 0 0 auto;
+  margin: 0;
+}
 .type-search .search-results-groups ul li a {
   display: inline-block;
   padding: 6px 14px;
