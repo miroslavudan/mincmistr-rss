@@ -148,3 +148,53 @@
 @media (max-width: 767px) {
   .type-search .search-results-group:has(a[href^="/blog/"]) ul {columns: 1;}
 }
+
+/* ---------------------------------------------------------------------------
+ * Thank-you page. ClickUp 869eaz87p
+ * The payment details were two ragged columns with a small QR stuck under
+ * them; for a bank transfer the QR is the most important thing on the page.
+ * ------------------------------------------------------------------------ */
+.co-payment-method .recapitulation-table th {
+  width: 42%;
+  font-weight: 400;
+  color: #6b6459;
+  padding: 7px 12px 7px 0;
+  vertical-align: top;
+}
+.co-payment-method .recapitulation-table td {
+  font-weight: 600;
+  padding: 7px 0;
+  vertical-align: top;
+}
+
+/* the amount to pay is the one number that matters */
+.co-payment-method .col-sm-6:first-child tr:last-child th {padding-top: 18px;}
+.co-payment-method .col-sm-6:first-child tr:last-child td {
+  font-size: 1.6em;
+  line-height: 1.2;
+  color: #6e432c;
+  padding-top: 12px;
+}
+
+/* QR big enough to scan from a phone, centred, with a hint */
+.co-payment-method img.qrcode {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 14px auto 4px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #e0d2bd;
+  border-radius: 10px;
+}
+.co-payment-method td:has(img.qrcode) {text-align: center;}
+.co-payment-method td:has(img.qrcode)::after {
+  content: "Naskenujte v bankovní aplikaci";
+  display: block;
+  font-size: .85em;
+  font-weight: 400;
+  color: #6b6459;
+}
+
+.co-order .cart-table td {padding: 10px 8px; vertical-align: middle;}
+.order-summary-item.summary-thx {font-size: 1.35em; color: #6e432c; margin-top: 4px;}
