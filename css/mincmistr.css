@@ -39,3 +39,47 @@
   .type-detail .p-thumbnails .thumbnail-prev,
   .type-detail .p-thumbnails .thumbnail-next {display: none !important;}
 }
+
+/* ---------------------------------------------------------------------------
+ * Search results: products first, then categories, then articles.
+ * ClickUp 869eaz8pp – the whole first screen used to be a bare list of
+ * category and article links; products started only at 872 px.
+ * ------------------------------------------------------------------------ */
+.type-search .content.wide {
+  display: flex;
+  flex-direction: column;
+}
+.type-search .content.wide > h2 {order: 1;}
+.type-search .content.wide > .search-results {order: 2;}
+.type-search .content.wide > .search-results-groups {order: 3;}
+
+/* the category and article lists come unstyled from the platform */
+.type-search .search-results-groups {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e0d6;
+}
+.type-search .search-results-groups h4 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+.type-search .search-results-groups ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+}
+.type-search .search-results-groups ul li a {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid #e0d2bd;
+  border-radius: 999px;
+  background: #faf7f2;
+  text-decoration: none;
+  font-size: .95em;
+}
+.type-search .search-results-groups ul li a:hover {
+  background: #f0e7d8;
+}
