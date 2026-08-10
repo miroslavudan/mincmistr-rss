@@ -228,7 +228,7 @@
    přímo tady, aby je editor obsahu nemohl zahodit.
    ------------------------------------------------------------------ */
 .welcome-wrapper .welcome .mm-hero__title {
-  font-size: 2.2em;
+  font-size: 2.6em;
   font-weight: 600;
   line-height: 1.25;
   text-transform: none;
@@ -276,9 +276,10 @@
 .welcome .mm-why__item--darek::before {background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23b49856%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M20%2012v8a1%201%200%200%201-1%201H5a1%201%200%200%201-1-1v-8%22%2F%3E%3Cpath%20d%3D%22M3%208h18v4H3z%22%2F%3E%3Cpath%20d%3D%22M12%2021V8%22%2F%3E%3Cpath%20d%3D%22M12%208S10.5%204%208.5%204a2.5%202.5%200%200%200%200%205M12%208s1.5-4%203.5-4a2.5%202.5%200%200%201%200%205%22%2F%3E%3C%2Fsvg%3E");}
 .welcome .mm-why__title {
   display: block;
+  font-size: 1.12em;
   font-weight: 600;
   color: #6e432c;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 .welcome .mm-why__text {
   display: block;
@@ -286,9 +287,16 @@
   line-height: 1.55;
   color: #4a4536;
 }
+.welcome .mm-why__text a {
+  color: #6e432c;
+  border-bottom: 1px solid #b49856;
+  text-decoration: none;
+}
+.welcome .mm-why__text a:hover,
+.welcome .mm-why__text a:focus {border-bottom-color: #6e432c;}
 
 @media (max-width: 767px) {
-  .welcome-wrapper .welcome .mm-hero__title {font-size: 1.6em;}
+  .welcome-wrapper .welcome .mm-hero__title {font-size: 1.75em;}
   .welcome .mm-why {grid-template-columns: 1fr; gap: 12px;}
   .welcome .mm-why__item {padding: 14px 16px 14px 60px; min-height: 0;}
   .welcome .mm-why__item::before {left: 16px; top: 16px; width: 28px; height: 28px;}
