@@ -213,3 +213,10 @@
   color: #6e432c;
   border-color: #b49856;
 }
+
+/* Platební údaje a QR doleva – dotazník Google se otevírá vpravo a QR překrýval. ClickUp 869eaz87p */
+@media (min-width: 768px) {
+  .co-payment-method .row {display: flex; flex-wrap: wrap;}
+  .co-payment-method .row > .col-sm-6:first-child {order: 2;}
+  .co-payment-method .row > .col-sm-6:last-child {order: 1;}
+}
