@@ -198,3 +198,18 @@
 
 .co-order .cart-table td {padding: 10px 8px; vertical-align: middle;}
 .order-summary-item.summary-thx {font-size: 1.35em; color: #6e432c; margin-top: 4px;}
+
+/* Zpět do obchodu: vedlejší akce, ať hlavní CTA zůstane OutOfDark. ClickUp 869eaz87p */
+.order-complete-links {margin-top: 22px;}
+.order-complete-links .btn.btn-primary {
+  background: transparent;
+  color: #6e432c;
+  border: 1px solid #cbb894;
+  font-weight: 400;
+}
+.order-complete-links .btn.btn-primary:hover,
+.order-complete-links .btn.btn-primary:focus {
+  background: #f8f1e4;
+  color: #6e432c;
+  border-color: #b49856;
+}
