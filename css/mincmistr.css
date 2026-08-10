@@ -325,7 +325,9 @@
   font-weight: 600;
   text-transform: none;
   text-align: center;
+  margin: 0 0 34px;
 }
+.blog-desc {padding-top: 10px;}
 @media (max-width: 767px) {
   .blog-desc .mm-blog-title {font-size: 1.4em;}
 }
