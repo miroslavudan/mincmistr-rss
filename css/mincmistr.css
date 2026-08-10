@@ -228,7 +228,7 @@
    přímo tady, aby je editor obsahu nemohl zahodit.
    ------------------------------------------------------------------ */
 .welcome-wrapper .welcome .mm-hero__title {
-  font-size: 2.6em;
+  font-size: 1.8em;
   font-weight: 600;
   line-height: 1.25;
   text-transform: none;
@@ -296,7 +296,7 @@
 .welcome .mm-why__text a:focus {border-bottom-color: #6e432c;}
 
 @media (max-width: 767px) {
-  .welcome-wrapper .welcome .mm-hero__title {font-size: 1.75em;}
+  .welcome-wrapper .welcome .mm-hero__title {font-size: 1.4em;}
   .welcome .mm-why {grid-template-columns: 1fr; gap: 12px;}
   .welcome .mm-why__item {padding: 14px 16px 14px 60px; min-height: 0;}
   .welcome .mm-why__item::before {left: 16px; top: 16px; width: 28px; height: 28px;}
@@ -317,4 +317,15 @@
 }
 @media (max-width: 767px) {
   .welcome-wrapper .welcome h2 {font-size: 1.4em;}
+}
+
+/* Nadpis blogové sekce (přepsaný na claim) srovnaný s ostatními nadpisy sekcí */
+.blog-desc .mm-blog-title {
+  font-size: 1.8em;
+  font-weight: 600;
+  text-transform: none;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .blog-desc .mm-blog-title {font-size: 1.4em;}
 }
