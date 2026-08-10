@@ -220,3 +220,70 @@
   .co-payment-method .row > .col-sm-6:first-child {order: 2;}
   .co-payment-method .row > .col-sm-6:last-child {order: 1;}
 }
+
+/* ------------------------------------------------------------------
+   Titulní strana: hlavní nadpis + "Proč nakupovat u Mincmistra"
+   Obsah je v administraci → Vzhled a obsah → Titulní strana (uvítací text).
+   Balíček 1 z auditu: titulka neměla nadpis, který by řekl, co e-shop je.
+   ------------------------------------------------------------------ */
+.welcome .mm-hero__title {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0 0 14px;
+  text-align: center;
+}
+.welcome .mm-hero__perex {
+  max-width: 680px;
+  margin: 0 auto 34px;
+  text-align: center;
+  font-size: 1.05em;
+  color: #4a4536;
+}
+.welcome .mm-why {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px 26px;
+  max-width: 940px;
+  margin: 0 auto 26px;
+  text-align: left;
+}
+.welcome .mm-why__item {
+  padding: 16px 18px 16px 20px;
+  border-left: 3px solid #b49856;
+  background: #faf7f1;
+  border-radius: 0 6px 6px 0;
+}
+.welcome .mm-why__title {
+  display: block;
+  font-weight: 600;
+  color: #6e432c;
+  margin-bottom: 5px;
+}
+.welcome .mm-why__text {
+  display: block;
+  font-size: .95em;
+  line-height: 1.55;
+  color: #4a4536;
+}
+.welcome .mm-why__cta {
+  text-align: center;
+  margin: 0 0 40px;
+  font-size: 1.02em;
+}
+.welcome .mm-why__cta strong {color: #6e432c;}
+.welcome .mm-why__cta a {
+  display: inline-block;
+  margin-left: 6px;
+  color: #6e432c;
+  border-bottom: 1px solid #b49856;
+  text-decoration: none;
+}
+.welcome .mm-why__cta a:hover,
+.welcome .mm-why__cta a:focus {border-bottom-color: #6e432c;}
+
+@media (max-width: 767px) {
+  .welcome .mm-hero__title {font-size: 1.55em;}
+  .welcome .mm-why {grid-template-columns: 1fr; gap: 12px;}
+  .welcome .mm-why__cta a {display: block; margin: 8px 0 0;}
+}
