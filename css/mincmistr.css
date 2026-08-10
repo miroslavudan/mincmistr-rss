@@ -301,3 +301,20 @@
   .welcome .mm-why__item {padding: 14px 16px 14px 60px; min-height: 0;}
   .welcome .mm-why__item::before {left: 16px; top: 16px; width: 28px; height: 28px;}
 }
+
+/* Nadpis "Hodnocení a recenze" srovnaný s ostatními nadpisy sekcí na titulce
+   (Mince s příběhem, Nové mince…) – hlavní nadpis stránky zůstává největší. */
+.welcome-wrapper .welcome h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+/* Tlačítko pod recenzemi se nesmí lámat do tří řádků */
+.hp-ratings .button {
+  width: auto;
+  min-width: 150px;
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  .welcome-wrapper .welcome h2 {font-size: 1.4em;}
+}
