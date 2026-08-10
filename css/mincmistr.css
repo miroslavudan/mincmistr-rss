@@ -1,0 +1,41 @@
+/* Mincmistr.cz – our own styles on top of the Shoptak template.
+ *
+ * Loaded from the shop header. The template itself lives in
+ * /user/documents/upload/sablona/ on Shoptet; this file only overrides it.
+ * Keep it small and always note which ClickUp task a block belongs to.
+ */
+
+/* ---------------------------------------------------------------------------
+ * Product detail on mobile: price and the buy button above the fold.
+ * ClickUp 869eaz8ja – 74 % of visits are mobile and the buy box used to sit
+ * a full screen below the photo.
+ * ------------------------------------------------------------------------ */
+@media (max-width: 767px) {
+  /* price and buy button jump above the short description */
+  .type-detail .p-info-wrapper .p-final-price-wrapper,
+  .type-detail .p-info-wrapper .add-to-cart {order: -1;}
+
+  /* title: three lines down to two */
+  .type-detail .p-detail-inner-header h1 {font-size: 21px; line-height: 1.15; margin: 2px 0 4px;}
+
+  /* smaller "novinka" flag */
+  .type-detail .p-detail-info {margin: 0 0 4px;}
+  .type-detail .p-detail-info .flag {font-size: 10px; padding: 2px 7px;}
+
+  /* main photo: capped and centred */
+  .type-detail .p-image {margin-bottom: 8px;}
+  .type-detail .p-image .p-main-image img {max-height: 190px; width: auto; margin: 0 auto; display: block;}
+
+  /* thumbnails: smaller, centred, slider disabled (2–4 photos need no arrows).
+     The inner div keeps its own width, hence the forced block layout. */
+  .type-detail .p-thumbnails,
+  .type-detail .p-thumbnails .p-thumbnails-inner,
+  .type-detail .p-thumbnails .p-thumbnail {height: 50px !important;}
+  .type-detail .p-thumbnails .p-thumbnail img {max-height: 46px; width: auto;}
+  .type-detail .p-thumbnails-wrapper {margin-bottom: 0;}
+  .type-detail .p-thumbnails .p-thumbnails-inner {position: static !important; width: auto !important;}
+  .type-detail .p-thumbnails .p-thumbnails-inner > div {text-align: center; display: block !important; float: none !important; width: auto !important;}
+  .type-detail .p-thumbnails .p-thumbnail {float: none !important; display: inline-block !important; vertical-align: top;}
+  .type-detail .p-thumbnails .thumbnail-prev,
+  .type-detail .p-thumbnails .thumbnail-next {display: none !important;}
+}
