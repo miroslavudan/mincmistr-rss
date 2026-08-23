@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 23 Aug 2026 08:18:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 10:13:21 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://www.mincmistr.cz/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Byl Traján opravdu nejlepší z římských císařů?</title>
+      <link>https://www.mincmistr.cz/blog/byl-trajan-opravdu-nejlepsi-z-rimskych-cisaru/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/byl-trajan-opravdu-nejlepsi-z-rimskych-cisaru/</guid>
+      <pubDate>Fri, 21 Aug 2026 22:30:55 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/byl_traja__n_opravdu_nejleps__i___z_r__i__msky__ch_ci__sar__u__.png" alt="" /><p>Ještě ve čtvrtém století, více než dvě stě let po jeho smrti, přáli římští senátoři každému novému císaři, aby byl felicior Augusto, melior Traiano – ...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/byl_traja__n_opravdu_nejleps__i___z_r__i__msky__ch_ci__sar__u__.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/byl_traja__n_opravdu_nejleps__i___z_r__i__msky__ch_ci__sar__u__.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/byl_traja__n_opravdu_nejleps__i___z_r__i__msky__ch_ci__sar__u__.png" />
+    </item>
     <item>
       <title>Ražba pražského groše: jeden den v kutnohorské mincovně</title>
       <link>https://www.mincmistr.cz/blog/razba-prazskeho-grose--jeden-den-v-kutnohorske-mincovne/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_z_valds__tejna_mocny___s__lechtic_s_kra__lovsky__mi_ambicemi-1.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_z_valds__tejna_mocny___s__lechtic_s_kra__lovsky__mi_ambicemi-1.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_z_valds__tejna_mocny___s__lechtic_s_kra__lovsky__mi_ambicemi-1.png" />
-    </item>
-    <item>
-      <title>Ferdinand II.: cena za vítězství na Bílé hoře</title>
-      <link>https://www.mincmistr.cz/blog/ferdinand-ii-cena-za-vitezstvi-na-bile-hore/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/ferdinand-ii-cena-za-vitezstvi-na-bile-hore/</guid>
-      <pubDate>Thu, 09 Apr 2026 14:26:21 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_ii._cena_za_vi__te__zstvi___na_bi__le___hor__e.png" alt="" /><p>Když se roku 1578 v Grazu ve Štýrsku narodil budoucí císař Ferdinand II. Habsburský, Evropa navenek ještě držela pohromadě. Jenže pod povrchem zdánliv...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_ii._cena_za_vi__te__zstvi___na_bi__le___hor__e.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_ii._cena_za_vi__te__zstvi___na_bi__le___hor__e.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_ii._cena_za_vi__te__zstvi___na_bi__le___hor__e.png" />
     </item>
   </channel>
 </rss>
