@@ -37,19 +37,19 @@ import requests
 from bs4 import BeautifulSoup
 
 # ============================================================
-# KONFIGURACE — uprav podle potřeby
+# KONFIGURACE – uprav podle potřeby
 # ============================================================
 # Adresa, na které jsou feedy veřejně dostupné (GitHub Pages).
 # Používá se pro <atom:link rel="self">.
 PAGES_BASE_URL = "https://miroslavudan.github.io/mincmistr-rss/"
 
 # ------------------------------------------------------------
-# FEEDY — každý se generuje zvlášť, přepínač --feed
+# FEEDY – každý se generuje zvlášť, přepínač --feed
 # ------------------------------------------------------------
 # `sources`: odkud se berou články. `url` = první stránka výpisu,
 # `pagination_url` = vzor pro stránkování ({n} = číslo stránky 2, 3, ...).
 FEEDS = {
-    # Původní feed celého blogu — beze změny chování.
+    # Původní feed celého blogu – beze změny chování.
     "blog": {
         "sources": [
             {
@@ -66,16 +66,16 @@ FEEDS = {
             },
         ],
         "feed_link": "https://www.mincmistr.cz/blog/",
-        "feed_title": "Mincmistr.cz — Blog a tipy",
+        "feed_title": "Mincmistr.cz – Blog a tipy",
         "feed_description": (
             "Články o mincích, bankovkách, historii a sběratelství, "
-            "tipy a triky ze světa numismatiky — z Mincmistr.cz."
+            "tipy a triky ze světa numismatiky – z Mincmistr.cz."
         ),
         "output_path": "feed.xml",
         # Prázdný blogový feed = chyba parseru, workflow má spadnout.
         "allow_empty": False,
     },
-    # Numismatický věstník — čtrnáctidenní přehled dění v numismatice.
+    # Numismatický věstník – čtrnáctidenní přehled dění v numismatice.
     # Vlastní feed, aby si ho šlo odebírat bez zbytku blogu.
     "vestnik": {
         "sources": [
@@ -89,13 +89,13 @@ FEEDS = {
             },
         ],
         "feed_link": "https://www.mincmistr.cz/numismaticky-vestnik/",
-        "feed_title": "Mincmistr.cz — Numismatický věstník",
+        "feed_title": "Mincmistr.cz – Numismatický věstník",
         "feed_description": (
             "Čtrnáctidenní přehled dění ve světě numismatiky: nové emise, "
-            "nálezy a archeologie, aukce, burzy a výstavy — z Mincmistr.cz."
+            "nálezy a archeologie, aukce, burzy a výstavy – z Mincmistr.cz."
         ),
         "output_path": "vestnik.xml",
-        # Rubrika je nová a do prvního vydání bude prázdná — to není chyba.
+        # Rubrika je nová a do prvního vydání bude prázdná – to není chyba.
         "allow_empty": True,
     },
 }
@@ -195,12 +195,12 @@ class Article:
                 f'      <enclosure url="{escape(self.image_url)}" '
                 f'length="0" type="{mime}" />'
             )
-            # Media:content (Media RSS namespace) — širší podpora ve čtečkách
+            # Media:content (Media RSS namespace) – širší podpora ve čtečkách
             parts.append(
                 f'      <media:content url="{escape(self.image_url)}" '
                 f'medium="image" type="{mime}" />'
             )
-            # Media:thumbnail — některé čtečky preferují
+            # Media:thumbnail – některé čtečky preferují
             parts.append(
                 f'      <media:thumbnail url="{escape(self.image_url)}" />'
             )
@@ -280,7 +280,7 @@ def extract_cards(soup: BeautifulSoup):
 
 
 def parse_card(card, base_url: str) -> Article | None:
-    # Titulek a odkaz — Shoptet používá <a class="title">, fallback na jiné
+    # Titulek a odkaz – Shoptet používá <a class="title">, fallback na jiné
     title_el = (
         card.select_one("a.title")
         or card.select_one("a[data-testid='textArticleTitle']")
@@ -297,7 +297,7 @@ def parse_card(card, base_url: str) -> Article | None:
     if re.search(r"/blog/?$", link) or "strana-" in link:
         return None
 
-    # Datum — <time datetime="2026-04-14 16:20:43">
+    # Datum – <time datetime="2026-04-14 16:20:43">
     pub_date = None
     time_el = card.select_one("time")
     if time_el is not None:
@@ -305,7 +305,7 @@ def parse_card(card, base_url: str) -> Article | None:
             time_el.get("datetime") or time_el.get_text()
         )
 
-    # Perex — <div class="description"><p>...</p></div>
+    # Perex – <div class="description"><p>...</p></div>
     perex = ""
     desc_el = (
         card.select_one("div.description")
@@ -315,7 +315,7 @@ def parse_card(card, base_url: str) -> Article | None:
     if desc_el is not None:
         perex = clean_text(desc_el.get_text(), max_len=500)
 
-    # Hero obrázek — <div class="image"><img src="..." width="800">
+    # Hero obrázek – <div class="image"><img src="..." width="800">
     # Shoptet má lazy-loading: u článků kromě prvního je v `src` SVG
     # placeholder a skutečná URL v `data-src`. Preferujeme data-src, pak src.
     image_url = ""
@@ -484,9 +484,9 @@ def main() -> int:
         return 2
 
     if not all_articles:
-        # Rubrika zatím nemá žádný článek — zapíšeme prázdný, ale validní feed.
+        # Rubrika zatím nemá žádný článek – zapíšeme prázdný, ale validní feed.
         print(
-            "ℹ Žádné články — zapisuji prázdný feed "
+            "ℹ Žádné články – zapisuji prázdný feed "
             "(u této rubriky je to očekávaný stav)."
         )
 
@@ -505,7 +505,7 @@ def main() -> int:
     out_path.write_text(rss_xml, encoding="utf-8")
 
     print(
-        f"✔ Hotovo — {len(all_articles)} článků zapsáno do: "
+        f"✔ Hotovo – {len(all_articles)} článků zapsáno do: "
         f"{out_path.resolve()}"
     )
     return 0

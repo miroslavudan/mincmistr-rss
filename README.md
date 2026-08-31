@@ -33,14 +33,14 @@ do `.github/workflows/update-rss.yml`.
 |------------------------------------|-------------------------------------------------------------|
 | `generate_rss.py`                  | Python skript, který stáhne blog a vygeneruje feed.xml      |
 | `requirements.txt`                 | Python závislosti                                           |
-| `.github/workflows/update-rss.yml` | Workflow — spouští skript každé 2 h a commituje feed.xml    |
+| `.github/workflows/update-rss.yml` | Workflow – spouští skript každé 2 h a commituje feed.xml    |
 | `index.html`                       | Malá titulní stránka pro GitHub Pages                       |
 | `.gitignore`                       | Ignoruje Python cache                                       |
 | `README.md`                        | Tento návod                                                 |
 
 ---
 
-## Zprovoznění — krok za krokem
+## Zprovoznění – krok za krokem
 
 Nepředpokládám u tebe žádné zkušenosti s GitHubem. Celé to zabere ~10 minut.
 
@@ -61,7 +61,7 @@ Jdi na [github.com](https://github.com/signup) a zaregistruj se.
 Nejjednodušší varianta (bez git příkazů, přes webové rozhraní):
 
 1. V novém repu klikni na **Add file → Upload files**
-2. Přetáhni všechny soubory z mé složky (kromě `README.md`, ten tam už je —
+2. Přetáhni všechny soubory z mé složky (kromě `README.md`, ten tam už je –
    nebo ho nech přepsat, na tom nezáleží):
    - `generate_rss.py`
    - `requirements.txt`
@@ -69,7 +69,7 @@ Nejjednodušší varianta (bez git příkazů, přes webové rozhraní):
    - `.gitignore`
    - `README.md` (tento)
 
-   **POZOR — důležité:** složku `.github/workflows/` webové rozhraní
+   **POZOR – důležité:** složku `.github/workflows/` webové rozhraní
    nedovolí přetáhnout přímo. Udělej to takto:
    1. Klikni **Add file → Create new file**
    2. Do pole s názvem napiš: `.github/workflows/update-rss.yml`
@@ -114,7 +114,7 @@ https://<tvuj-username>.github.io/mincmistr-rss/feed.xml
 Měl bys vidět XML s articles. Můžeš ho i ověřit na
 [validator.w3.org/feed](https://validator.w3.org/feed/).
 
-Hotovo 🎉 — feed se teď obnovuje každé 2 hodiny automaticky.
+Hotovo 🎉 – feed se teď obnovuje každé 2 hodiny automaticky.
 
 ---
 
@@ -151,9 +151,9 @@ Uprav v souboru `.github/workflows/update-rss.yml` řádek:
 - cron: '0 */2 * * *'
 ```
 
-- `'0 * * * *'` — každou hodinu
-- `'0 */6 * * *'` — každých 6 hodin
-- `'0 4 * * *'` — každý den ve 4:00 UTC (6:00 CEST v létě)
+- `'0 * * * *'` – každou hodinu
+- `'0 */6 * * *'` – každých 6 hodin
+- `'0 4 * * *'` – každý den ve 4:00 UTC (6:00 CEST v létě)
 
 Cron v GitHub Actions používá UTC. Změnu stačí commitnout, projeví se hned.
 
@@ -171,10 +171,10 @@ python3 generate_rss.py
 Výstup: `feed.xml` v aktuální složce.
 
 Volby:
-- `--output /cesta/k/feed.xml` — jiná cesta
-- `--limit 30` — počet článků
-- `--no-detail` — rychlejší, ale méně přesné
-- `--verbose` — podrobný výpis
+- `--output /cesta/k/feed.xml` – jiná cesta
+- `--limit 30` – počet článků
+- `--no-detail` – rychlejší, ale méně přesné
+- `--verbose` – podrobný výpis
 
 ---
 
@@ -188,7 +188,7 @@ Volby:
   na začátek `ARTICLE_CARD_SELECTORS` / `TITLE_SELECTORS` atd.
 
 **Feed je prázdný nebo jen s pár články**
-- Stejný důvod — parser nenašel všechny karty. Viz výše.
+- Stejný důvod – parser nenašel všechny karty. Viz výše.
 
 **GitHub Pages URL nefunguje**
 - Zkontroluj **Settings → Pages**, že Source je `main` / `/ (root)`
