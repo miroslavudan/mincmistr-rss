@@ -39,34 +39,70 @@ from bs4 import BeautifulSoup
 # ============================================================
 # KONFIGURACE — uprav podle potřeby
 # ============================================================
+# Adresa, na které jsou feedy veřejně dostupné (GitHub Pages).
+# Používá se pro <atom:link rel="self">.
+PAGES_BASE_URL = "https://miroslavudan.github.io/mincmistr-rss/"
+
+# ------------------------------------------------------------
+# FEEDY — každý se generuje zvlášť, přepínač --feed
+# ------------------------------------------------------------
+# `sources`: odkud se berou články. `url` = první stránka výpisu,
+# `pagination_url` = vzor pro stránkování ({n} = číslo stránky 2, 3, ...).
+FEEDS = {
+    # Původní feed celého blogu — beze změny chování.
+    "blog": {
+        "sources": [
+            {
+                "name": "Blog",
+                "url": "https://www.mincmistr.cz/blog/",
+                "pagination_url": "https://www.mincmistr.cz/blog/strana-{n}/",
+            },
+            {
+                "name": "Tipy a triky",
+                "url": "https://www.mincmistr.cz/tipy-triky/",
+                "pagination_url": (
+                    "https://www.mincmistr.cz/tipy-triky/strana-{n}/"
+                ),
+            },
+        ],
+        "feed_link": "https://www.mincmistr.cz/blog/",
+        "feed_title": "Mincmistr.cz — Blog a tipy",
+        "feed_description": (
+            "Články o mincích, bankovkách, historii a sběratelství, "
+            "tipy a triky ze světa numismatiky — z Mincmistr.cz."
+        ),
+        "output_path": "feed.xml",
+        # Prázdný blogový feed = chyba parseru, workflow má spadnout.
+        "allow_empty": False,
+    },
+    # Numismatický věstník — čtrnáctidenní přehled dění v numismatice.
+    # Vlastní feed, aby si ho šlo odebírat bez zbytku blogu.
+    "vestnik": {
+        "sources": [
+            {
+                "name": "Numismatický věstník",
+                "url": "https://www.mincmistr.cz/numismaticky-vestnik/",
+                "pagination_url": (
+                    "https://www.mincmistr.cz/numismaticky-vestnik/"
+                    "strana-{n}/"
+                ),
+            },
+        ],
+        "feed_link": "https://www.mincmistr.cz/numismaticky-vestnik/",
+        "feed_title": "Mincmistr.cz — Numismatický věstník",
+        "feed_description": (
+            "Čtrnáctidenní přehled dění ve světě numismatiky: nové emise, "
+            "nálezy a archeologie, aukce, burzy a výstavy — z Mincmistr.cz."
+        ),
+        "output_path": "vestnik.xml",
+        # Rubrika je nová a do prvního vydání bude prázdná — to není chyba.
+        "allow_empty": True,
+    },
+}
+
 CONFIG = {
     "base_url": "https://www.mincmistr.cz",
-    # Odkaz uvedený v <link> elementu feedu
-    "feed_link": "https://www.mincmistr.cz/blog/",
-    # Zdroje článků — skript stáhne z každého, spojí je a seřadí podle data.
-    # `url` = první stránka výpisu, `pagination_url` = vzor pro stránkování
-    # ({n} se nahradí číslem stránky 2, 3, ...).
-    "sources": [
-        {
-            "name": "Blog",
-            "url": "https://www.mincmistr.cz/blog/",
-            "pagination_url": "https://www.mincmistr.cz/blog/strana-{n}/",
-        },
-        {
-            "name": "Tipy a triky",
-            "url": "https://www.mincmistr.cz/tipy-triky/",
-            "pagination_url": (
-                "https://www.mincmistr.cz/tipy-triky/strana-{n}/"
-            ),
-        },
-    ],
-    "feed_title": "Mincmistr.cz — Blog a tipy",
-    "feed_description": (
-        "Články o mincích, bankovkách, historii a sběratelství, "
-        "tipy a triky ze světa numismatiky — z Mincmistr.cz."
-    ),
     "feed_language": "cs-cz",
-    "output_path": "feed.xml",
     "limit": 20,
     "user_agent": (
         "Mozilla/5.0 (compatible; MincmistrRSSBot/1.0; "
@@ -328,22 +364,24 @@ def fetch_page_articles(
     return articles
 
 
-def build_rss(articles: list[Article]) -> str:
+def build_rss(articles: list[Article], feed: dict) -> str:
     now = format_datetime(datetime.now(tz=timezone.utc))
     items_xml = "\n".join(a.to_rss_item() for a in articles)
+    # rel="self" musí ukazovat na feed samotný, tedy na GitHub Pages
+    self_url = urljoin(PAGES_BASE_URL, feed["output_path"])
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:media="http://search.yahoo.com/mrss/"
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>{escape(CONFIG['feed_title'])}</title>
-    <link>{escape(CONFIG['feed_link'])}</link>
-    <description>{escape(CONFIG['feed_description'])}</description>
+    <title>{escape(feed['feed_title'])}</title>
+    <link>{escape(feed['feed_link'])}</link>
+    <description>{escape(feed['feed_description'])}</description>
     <language>{CONFIG['feed_language']}</language>
     <lastBuildDate>{now}</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
-    <atom:link href="{escape(CONFIG['feed_link'])}feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{escape(self_url)}" rel="self" type="application/rss+xml" />
 {items_xml}
   </channel>
 </rss>
@@ -354,18 +392,34 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description="Generátor RSS feedu pro blog mincmistr.cz"
     )
-    parser.add_argument("--output", "-o", default=CONFIG["output_path"])
+    parser.add_argument(
+        "--feed",
+        "-f",
+        choices=sorted(FEEDS.keys()),
+        default="blog",
+        help="Který feed generovat (výchozí: blog)",
+    )
+    parser.add_argument(
+        "--output",
+        "-o",
+        default=None,
+        help="Kam zapsat feed (výchozí: podle zvoleného feedu)",
+    )
     parser.add_argument("--limit", "-n", type=int, default=CONFIG["limit"])
     parser.add_argument("--verbose", "-v", action="store_true")
     args = parser.parse_args()
+
+    feed = FEEDS[args.feed]
+    output_path = args.output or feed["output_path"]
+    print(f"══ Feed: {feed['feed_title']} → {output_path} ══")
 
     session = make_session()
 
     all_articles: list[Article] = []
     seen: set[str] = set()
 
-    # Iteruj přes všechny zdroje (Blog, Tipy a triky, ...)
-    for source in CONFIG["sources"]:
+    # Iteruj přes všechny zdroje zvoleného feedu
+    for source in feed["sources"]:
         name = source.get("name", source["url"])
         print(f"\n══ Zdroj: {name} ══")
         source_count = 0
@@ -421,13 +475,20 @@ def main() -> int:
 
         print(f"  ↳ ze zdroje {name}: {source_count} článků")
 
-    if not all_articles:
+    if not all_articles and not feed.get("allow_empty", False):
         print(
             "❌ Žádné články se nepodařilo naparsovat. "
             "Zkontroluj selektor CARD_SELECTOR.",
             file=sys.stderr,
         )
         return 2
+
+    if not all_articles:
+        # Rubrika zatím nemá žádný článek — zapíšeme prázdný, ale validní feed.
+        print(
+            "ℹ Žádné články — zapisuji prázdný feed "
+            "(u této rubriky je to očekávaný stav)."
+        )
 
     # Seřaď od nejnovějšího
     all_articles.sort(
@@ -438,8 +499,8 @@ def main() -> int:
     # Ořež na limit
     all_articles = all_articles[: args.limit]
 
-    rss_xml = build_rss(all_articles)
-    out_path = Path(args.output)
+    rss_xml = build_rss(all_articles, feed)
+    out_path = Path(output_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(rss_xml, encoding="utf-8")
 
