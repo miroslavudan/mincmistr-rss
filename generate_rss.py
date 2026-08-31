@@ -81,14 +81,14 @@ FEEDS = {
         "sources": [
             {
                 "name": "Numismatický věstník",
-                "url": "https://www.mincmistr.cz/numismaticky-vestnik/",
+                "url": "https://www.mincmistr.cz/vestnik/",
                 "pagination_url": (
-                    "https://www.mincmistr.cz/numismaticky-vestnik/"
+                    "https://www.mincmistr.cz/vestnik/"
                     "strana-{n}/"
                 ),
             },
         ],
-        "feed_link": "https://www.mincmistr.cz/numismaticky-vestnik/",
+        "feed_link": "https://www.mincmistr.cz/vestnik/",
         "feed_title": "Mincmistr.cz – Numismatický věstník",
         "feed_description": (
             "Čtrnáctidenní přehled dění ve světě numismatiky: nové emise, "

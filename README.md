@@ -9,7 +9,7 @@ Generují se **dva feedy**:
 | Feed | Co obsahuje | Soubor | Přepínač |
 |---|---|---|---|
 | Blog a tipy | `/blog/` + `/tipy-triky/` | `feed.xml` | `--feed blog` (výchozí) |
-| Numismatický věstník | `/numismaticky-vestnik/` | `vestnik.xml` | `--feed vestnik` |
+| Numismatický věstník | `/vestnik/` | `vestnik.xml` | `--feed vestnik` |
 
 Feedy se automaticky obnovují **každé 2 hodiny** pomocí GitHub Actions
 a jsou publikované zdarma přes GitHub Pages:
