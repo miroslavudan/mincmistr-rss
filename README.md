@@ -1,15 +1,29 @@
-# RSS feed pro blog mincmistr.cz
+# RSS feedy pro mincmistr.cz
 
 Shoptet neumí generovat RSS feed z blogových článků, tak to za něj dělá
-tento projekt. Python skript stáhne výpis článků z
-`https://www.mincmistr.cz/blog/`, z každého vytáhne titulek, odkaz, datum
-a perex, a uloží je jako validní RSS 2.0 feed (`feed.xml`).
+tento projekt. Python skript stáhne výpis článků z webu, z každého vytáhne
+titulek, odkaz, datum a perex, a uloží je jako validní RSS 2.0 feed.
 
-Feed se automaticky obnovuje **každé 2 hodiny** pomocí GitHub Actions
-a je publikován zdarma přes GitHub Pages.
+Generují se **dva feedy**:
 
-**Výsledná URL feedu** (po zprovoznění):
-`https://<tvuj-github-username>.github.io/mincmistr-rss/feed.xml`
+| Feed | Co obsahuje | Soubor | Přepínač |
+|---|---|---|---|
+| Blog a tipy | `/blog/` + `/tipy-triky/` | `feed.xml` | `--feed blog` (výchozí) |
+| Numismatický věstník | `/numismaticky-vestnik/` | `vestnik.xml` | `--feed vestnik` |
+
+Feedy se automaticky obnovují **každé 2 hodiny** pomocí GitHub Actions
+a jsou publikované zdarma přes GitHub Pages:
+
+- `https://miroslavudan.github.io/mincmistr-rss/feed.xml`
+- `https://miroslavudan.github.io/mincmistr-rss/vestnik.xml`
+
+**Věstník je nová rubrika** – dokud v ní nevyjde první číslo, je `vestnik.xml`
+prázdný, ale validní; workflow kvůli tomu nespadne (`allow_empty`). Blogový
+feed naopak prázdný být nesmí – tam prázdný výsledek znamená rozbitý parser
+a workflow zčervená.
+
+Nový feed se přidá do `FEEDS` v `generate_rss.py` a jedním krokem
+do `.github/workflows/update-rss.yml`.
 
 ---
 
