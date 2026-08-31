@@ -4,11 +4,11 @@
      xmlns:media="http://search.yahoo.com/mrss/"
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Mincmistr.cz — Blog a tipy</title>
+    <title>Mincmistr.cz – Blog a tipy</title>
     <link>https://www.mincmistr.cz/blog/</link>
-    <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky — z Mincmistr.cz.</description>
+    <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky – z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Mon, 31 Aug 2026 10:19:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 10:31:07 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://miroslavudan.github.io/mincmistr-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
