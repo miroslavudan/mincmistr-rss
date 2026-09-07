@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky – z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Mon, 07 Sep 2026 13:48:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 18:29:32 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://miroslavudan.github.io/mincmistr-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Církevní ražby: mince biskupů, arcibiskupů a papežů</title>
+      <link>https://www.mincmistr.cz/blog/cirkevni-razby--mince-biskupu--arcibiskupu-a-papezu/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/cirkevni-razby--mince-biskupu--arcibiskupu-a-papezu/</guid>
+      <pubDate>Mon, 07 Sep 2026 18:03:27 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ci__rkevni___raz__by_mince_biskupu____arcibiskupu___a_papez__u__.png" alt="" /><p>Na zlatém dukátu z roku 1791 hledí do dálky muž v kněžském rouchu s křížem na prsou. Kolem hlavy má opis s titulem, na druhé straně mince se pod legát...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ci__rkevni___raz__by_mince_biskupu____arcibiskupu___a_papez__u__.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ci__rkevni___raz__by_mince_biskupu____arcibiskupu___a_papez__u__.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ci__rkevni___raz__by_mince_biskupu____arcibiskupu___a_papez__u__.png" />
+    </item>
     <item>
       <title>Byl Traján opravdu nejlepší z římských císařů?</title>
       <link>https://www.mincmistr.cz/blog/byl-trajan-opravdu-nejlepsi-z-rimskych-cisaru/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_octaviana_k_augustovi_muz____ktery___prome__nil_r__i__m_v_ci__sar__stvi__.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_octaviana_k_augustovi_muz____ktery___prome__nil_r__i__m_v_ci__sar__stvi__.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_octaviana_k_augustovi_muz____ktery___prome__nil_r__i__m_v_ci__sar__stvi__.png" />
-    </item>
-    <item>
-      <title>Albrecht z Valdštejna: mocný šlechtic s královskými ambicemi?</title>
-      <link>https://www.mincmistr.cz/blog/albrecht-z-valdstejna--mocny-slechtic-s-kralovskymi-ambicemi/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/albrecht-z-valdstejna--mocny-slechtic-s-kralovskymi-ambicemi/</guid>
-      <pubDate>Sun, 12 Apr 2026 19:13:32 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_z_valds__tejna_mocny___s__lechtic_s_kra__lovsky__mi_ambicemi-1.png" alt="" /><p>Málokterá postava českých a středoevropských dějin vyvolává tolik rozporuplných reakcí jako Albrecht z Valdštejna. Vojevůdce, podnikatel, budovatel mě...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_z_valds__tejna_mocny___s__lechtic_s_kra__lovsky__mi_ambicemi-1.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_z_valds__tejna_mocny___s__lechtic_s_kra__lovsky__mi_ambicemi-1.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/albrecht_z_valds__tejna_mocny___s__lechtic_s_kra__lovsky__mi_ambicemi-1.png" />
     </item>
   </channel>
 </rss>
