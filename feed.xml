@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky – z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Mon, 14 Sep 2026 09:22:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 16:03:20 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://miroslavudan.github.io/mincmistr-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fridrich Falcký: Zimní král, který ztratil víc než korunu</title>
+      <link>https://www.mincmistr.cz/blog/fridrich-falcky--zimni-kral--ktery-ztratil-vic-nez-korunu-zimni-kral--ktereho-si-cesi-zvolili-a-za-rok-ztratili/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/fridrich-falcky--zimni-kral--ktery-ztratil-vic-nez-korunu-zimni-kral--ktereho-si-cesi-zvolili-a-za-rok-ztratili/</guid>
+      <pubDate>Sun, 13 Sep 2026 23:48:26 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/fridrich_falcky___zimni___kra__l__ktery___ztratil_vi__c_nez___korunu.png" alt="" /><p>Od korunovace do bitvy na Bílé hoře uplynul jeden rok a čtyři dny. Když 8. listopadu 1620 rozhodla necelé dvě hodiny trvající bitva o osud jeho koruny...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/fridrich_falcky___zimni___kra__l__ktery___ztratil_vi__c_nez___korunu.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/fridrich_falcky___zimni___kra__l__ktery___ztratil_vi__c_nez___korunu.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/fridrich_falcky___zimni___kra__l__ktery___ztratil_vi__c_nez___korunu.png" />
+    </item>
     <item>
       <title>Církevní ražby: mince biskupů, arcibiskupů a papežů</title>
       <link>https://www.mincmistr.cz/blog/cirkevni-razby--mince-biskupu--arcibiskupu-a-papezu/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/15_fascinuji__ci__ch_zaji__mavosti___ze_sve__ta_minci____ktere___va__s_pr__ekvapi__.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/15_fascinuji__ci__ch_zaji__mavosti___ze_sve__ta_minci____ktere___va__s_pr__ekvapi__.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/15_fascinuji__ci__ch_zaji__mavosti___ze_sve__ta_minci____ktere___va__s_pr__ekvapi__.png" />
-    </item>
-    <item>
-      <title>Augustus: muž, který proměnil Řím v císařství</title>
-      <link>https://www.mincmistr.cz/blog/augustus--muz--ktery-promenil-rim-v-cisarstvi/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/augustus--muz--ktery-promenil-rim-v-cisarstvi/</guid>
-      <pubDate>Tue, 14 Apr 2026 16:20:43 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_octaviana_k_augustovi_muz____ktery___prome__nil_r__i__m_v_ci__sar__stvi__.png" alt="" /><p>Když roku 44 př. n. l. padl Gaius Julius Caesar pod dýkami spiklenců na zasedání senátu v Curii Pompeia, jeho vrazi věřili, že zachraňují republiku. V...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_octaviana_k_augustovi_muz____ktery___prome__nil_r__i__m_v_ci__sar__stvi__.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_octaviana_k_augustovi_muz____ktery___prome__nil_r__i__m_v_ci__sar__stvi__.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/od_octaviana_k_augustovi_muz____ktery___prome__nil_r__i__m_v_ci__sar__stvi__.png" />
     </item>
   </channel>
 </rss>
