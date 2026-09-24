@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky – z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Thu, 24 Sep 2026 08:51:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 14:31:04 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://miroslavudan.github.io/mincmistr-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vratislav II.: od vyhnance k prvnímu českému králi</title>
+      <link>https://www.mincmistr.cz/blog/vratislav-ii-od-vyhnance-k-prvnimu-ceskemu-krali/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/vratislav-ii-od-vyhnance-k-prvnimu-ceskemu-krali/</guid>
+      <pubDate>Thu, 24 Sep 2026 07:50:08 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/vratislav_ii._od_vyhnance_k_prvni__mu_c__eske__mu_kra__li.png" alt="" /><p>Patnáctého června, ve svátek svatého Víta, roku 1085, nebo možná až o rok později, se v rozestavěné bazilice na Pražském hradě sešli biskupové, kněží ...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/vratislav_ii._od_vyhnance_k_prvni__mu_c__eske__mu_kra__li.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/vratislav_ii._od_vyhnance_k_prvni__mu_c__eske__mu_kra__li.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/vratislav_ii._od_vyhnance_k_prvni__mu_c__eske__mu_kra__li.png" />
+    </item>
     <item>
       <title>Fridrich Falcký: Zimní král, který ztratil víc než korunu</title>
       <link>https://www.mincmistr.cz/blog/fridrich-falcky--zimni-kral--ktery-ztratil-vic-nez-korunu-zimni-kral--ktereho-si-cesi-zvolili-a-za-rok-ztratili/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svobodni___zedna__r__i_de__jiny_tajne__ho_r__a__du__ktery___fascinoval_i_de__sil_evropu.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svobodni___zedna__r__i_de__jiny_tajne__ho_r__a__du__ktery___fascinoval_i_de__sil_evropu.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svobodni___zedna__r__i_de__jiny_tajne__ho_r__a__du__ktery___fascinoval_i_de__sil_evropu.png" />
-    </item>
-    <item>
-      <title>15 zajímavostí ze světa mincí, které vás překvapí</title>
-      <link>https://www.mincmistr.cz/tipy-triky/15-fascinujicich-zajimavosti-ze-sveta-minci--ktere-vas-prekvapi/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/tipy-triky/15-fascinujicich-zajimavosti-ze-sveta-minci--ktere-vas-prekvapi/</guid>
-      <pubDate>Tue, 14 Apr 2026 20:08:13 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/15_fascinuji__ci__ch_zaji__mavosti___ze_sve__ta_minci____ktere___va__s_pr__ekvapi__.png" alt="" /><p>Mince jsou víc než jen platidla – jsou to malí svědkové historie, kultury a lidské vynalézavosti. Za tisíce let své existence nashromáždily nespočet f...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/15_fascinuji__ci__ch_zaji__mavosti___ze_sve__ta_minci____ktere___va__s_pr__ekvapi__.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/15_fascinuji__ci__ch_zaji__mavosti___ze_sve__ta_minci____ktere___va__s_pr__ekvapi__.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/15_fascinuji__ci__ch_zaji__mavosti___ze_sve__ta_minci____ktere___va__s_pr__ekvapi__.png" />
     </item>
   </channel>
 </rss>
