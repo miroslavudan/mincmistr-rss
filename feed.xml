@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky – z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 04 Oct 2026 07:34:55 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 13:33:57 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://miroslavudan.github.io/mincmistr-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mikuláš II.: poslední ruský car a konec tří set let Romanovců</title>
+      <link>https://www.mincmistr.cz/blog/mikulas-ii-posledni-rusky-car-a-konec-tri-set-let-romanovcu/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/mikulas-ii-posledni-rusky-car-a-konec-tri-set-let-romanovcu/</guid>
+      <pubDate>Sun, 04 Oct 2026 14:43:57 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mikula__s___ii._posledni___rusky___car_a_konec_tr__i___set_let_romanovcu__.png" alt="" /><p>Na stříbrném rublu z roku 1913 jsou vedle sebe dva muži, mezi jejichž nástupy na trůn leží bezmála tři století. Vpravo Michail Fjodorovič v carském ro...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mikula__s___ii._posledni___rusky___car_a_konec_tr__i___set_let_romanovcu__.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mikula__s___ii._posledni___rusky___car_a_konec_tr__i___set_let_romanovcu__.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/mikula__s___ii._posledni___rusky___car_a_konec_tr__i___set_let_romanovcu__.png" />
+    </item>
     <item>
       <title>Vratislav II.: od vyhnance k prvnímu českému králi</title>
       <link>https://www.mincmistr.cz/blog/vratislav-ii-od-vyhnance-k-prvnimu-ceskemu-krali/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___habsbursky___od_bratrske__ho_sporu_k_praz__ske___defenestraci.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___habsbursky___od_bratrske__ho_sporu_k_praz__ske___defenestraci.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___habsbursky___od_bratrske__ho_sporu_k_praz__ske___defenestraci.png" />
-    </item>
-    <item>
-      <title>Svobodní zednáři: tajný řád, který fascinoval i děsil Evropu</title>
-      <link>https://www.mincmistr.cz/blog/svobodni-zednari--tajny-rad--ktery-fascinoval-i-desil-evropu/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/svobodni-zednari--tajny-rad--ktery-fascinoval-i-desil-evropu/</guid>
-      <pubDate>Sun, 19 Apr 2026 16:42:48 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svobodni___zedna__r__i_de__jiny_tajne__ho_r__a__du__ktery___fascinoval_i_de__sil_evropu.png" alt="" /><p>V pivnici Goose and Gridiron na prostranství u katedrály sv. Pavla se 24. června 1717 spojily čtyři londýnské lóže a ustavily první Velkou lóži. Naven...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svobodni___zedna__r__i_de__jiny_tajne__ho_r__a__du__ktery___fascinoval_i_de__sil_evropu.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svobodni___zedna__r__i_de__jiny_tajne__ho_r__a__du__ktery___fascinoval_i_de__sil_evropu.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/svobodni___zedna__r__i_de__jiny_tajne__ho_r__a__du__ktery___fascinoval_i_de__sil_evropu.png" />
     </item>
   </channel>
 </rss>
