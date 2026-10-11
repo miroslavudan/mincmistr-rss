@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky – z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 11 Oct 2026 08:01:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 16:03:28 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://miroslavudan.github.io/mincmistr-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Karel I.: poslední Habsburk a konec starého světa</title>
+      <link>https://www.mincmistr.cz/blog/karel-i-posledni-habsburk-a-konec-stareho-sveta/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/karel-i-posledni-habsburk-a-konec-stareho-sveta/</guid>
+      <pubDate>Sun, 11 Oct 2026 16:50:48 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_i_posledni___habsburk_a_konec_stare__ho_sve__ta.png" alt="" /><p>Jedenáctého listopadu 1918 podepsal jednatřicetiletý císař na zámku Schönbrunn prohlášení, v němž se vzdal jakéhokoli podílu na státních záležitostech...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_i_posledni___habsburk_a_konec_stare__ho_sve__ta.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_i_posledni___habsburk_a_konec_stare__ho_sve__ta.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/karel_i_posledni___habsburk_a_konec_stare__ho_sve__ta.png" />
+    </item>
     <item>
       <title>Mikuláš II.: poslední ruský car a konec tří set let Romanovců</title>
       <link>https://www.mincmistr.cz/blog/mikulas-ii-posledni-rusky-car-a-konec-tri-set-let-romanovcu/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___korvi__n_havran__ktery___chte__l_ovla__dnout_str__edni___evropu.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___korvi__n_havran__ktery___chte__l_ovla__dnout_str__edni___evropu.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___korvi__n_havran__ktery___chte__l_ovla__dnout_str__edni___evropu.png" />
-    </item>
-    <item>
-      <title>Matyáš Habsburský: od bratrského sporu k pražské defenestraci</title>
-      <link>https://www.mincmistr.cz/blog/matyas-habsbursky--od-bratrskeho-sporu-k-prazske-defenestraci/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/matyas-habsbursky--od-bratrskeho-sporu-k-prazske-defenestraci/</guid>
-      <pubDate>Thu, 30 Apr 2026 07:54:58 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___habsbursky___od_bratrske__ho_sporu_k_praz__ske___defenestraci.png" alt="" /><p>Když roku 1612 usedl Matyáš Habsburský na císařský trůn, držel již českou i uherskou královskou korunu a stal se hlavou rodu ovládajícího podstatnou č...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___habsbursky___od_bratrske__ho_sporu_k_praz__ske___defenestraci.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___habsbursky___od_bratrske__ho_sporu_k_praz__ske___defenestraci.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/matya__s___habsbursky___od_bratrske__ho_sporu_k_praz__ske___defenestraci.png" />
     </item>
   </channel>
 </rss>
