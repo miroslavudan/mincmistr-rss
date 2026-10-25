@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky – z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Sun, 25 Oct 2026 08:49:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 14:00:54 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://miroslavudan.github.io/mincmistr-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lýdie, kolébka prvních mincí: když elektrum změnilo svět</title>
+      <link>https://www.mincmistr.cz/blog/lydie--kolebka-prvnich-minci--kdyz-elektrum-zmenilo-svet/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/lydie--kolebka-prvnich-minci--kdyz-elektrum-zmenilo-svet/</guid>
+      <pubDate>Sun, 25 Oct 2026 08:04:52 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ly__die__kole__bka_prvni__ch_minci___kdyz___elektrum_zme__nilo_sve__t.png" alt="" /><p>Odkud se vzala první mince? Antická tradice i dnešní archeologie ukazují stejným směrem: do Lýdie, malého království v západní Malé Asii s hlavním měs...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ly__die__kole__bka_prvni__ch_minci___kdyz___elektrum_zme__nilo_sve__t.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ly__die__kole__bka_prvni__ch_minci___kdyz___elektrum_zme__nilo_sve__t.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ly__die__kole__bka_prvni__ch_minci___kdyz___elektrum_zme__nilo_sve__t.png" />
+    </item>
     <item>
       <title>Štěpán Šlik a jáchymovské tolary: zrod světové měny</title>
       <link>https://www.mincmistr.cz/blog/stepan-slik-a-jachymovske-tolary--jak-cesky-slechtic-zmenil-svetove-penize/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pe__t_vza__cny__ch_minci___nas__ich_de__jin_-_drobne____za_ktere___sbe__ratele___plati___statisi__ce.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pe__t_vza__cny__ch_minci___nas__ich_de__jin_-_drobne____za_ktere___sbe__ratele___plati___statisi__ce.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/pe__t_vza__cny__ch_minci___nas__ich_de__jin_-_drobne____za_ktere___sbe__ratele___plati___statisi__ce.png" />
-    </item>
-    <item>
-      <title>Caligula: od miláčka legií k postrachu Říma</title>
-      <link>https://www.mincmistr.cz/blog/caligula--od-milacka-legii-k-postrachu-rima/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/caligula--od-milacka-legii-k-postrachu-rima/</guid>
-      <pubDate>Mon, 18 May 2026 09:03:55 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/caligula_od_mila__c__ka_legii___k_postrachu_r__i__ma.png" alt="" /><p>Roku 41 našeho letopočtu byl v palácovém komplexu na Palatinu zavražděn muž, který byl ještě před čtyřmi lety vítán jako naděje Římské říše. Jmenoval ...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/caligula_od_mila__c__ka_legii___k_postrachu_r__i__ma.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/caligula_od_mila__c__ka_legii___k_postrachu_r__i__ma.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/caligula_od_mila__c__ka_legii___k_postrachu_r__i__ma.png" />
     </item>
   </channel>
 </rss>
