@@ -8,9 +8,19 @@
     <link>https://www.mincmistr.cz/blog/</link>
     <description>Články o mincích, bankovkách, historii a sběratelství, tipy a triky ze světa numismatiky – z Mincmistr.cz.</description>
     <language>cs-cz</language>
-    <lastBuildDate>Tue, 17 Nov 2026 05:44:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:14:38 +0000</lastBuildDate>
     <generator>generate_rss.py (mincmistr.cz)</generator>
     <atom:link href="https://miroslavudan.github.io/mincmistr-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kleopatra a Antonius: red flag vyražený do stříbra</title>
+      <link>https://www.mincmistr.cz/blog/kleopatra-a-antonius--red-flag-vyrazeny-do-stribra/</link>
+      <guid isPermaLink="true">https://www.mincmistr.cz/blog/kleopatra-a-antonius--red-flag-vyrazeny-do-stribra/</guid>
+      <pubDate>Tue, 17 Nov 2026 00:59:40 +0000</pubDate>
+      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/kleopatra_a_antonius_red_flag_vyraz__eny___do_str__i__bra.png" alt="" /><p>Římský generál, egyptská královna, jeho manželka, její bratr, ukradená závěť a jedna totálně nepovedená námořní bitva. Kdyby to přinesl scenárista, pr...</p>]]></description>
+      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/kleopatra_a_antonius_red_flag_vyraz__eny___do_str__i__bra.png" length="0" type="image/png" />
+      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/kleopatra_a_antonius_red_flag_vyraz__eny___do_str__i__bra.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/kleopatra_a_antonius_red_flag_vyraz__eny___do_str__i__bra.png" />
+    </item>
     <item>
       <title>Proč se ve středověku počítalo v tuctech</title>
       <link>https://www.mincmistr.cz/blog/proc-lide-ve-stredoveku-pocitali-v-tuctech--historie-pocitani-od-davnoveku/</link>
@@ -200,16 +210,6 @@
       <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/konec__ne___por__a__dek_ve_vas__i___sbi__rce_pr__edstavujeme_outofdark.png" length="0" type="image/png" />
       <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/konec__ne___por__a__dek_ve_vas__i___sbi__rce_pr__edstavujeme_outofdark.png" medium="image" type="image/png" />
       <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/konec__ne___por__a__dek_ve_vas__i___sbi__rce_pr__edstavujeme_outofdark.png" />
-    </item>
-    <item>
-      <title>Ferdinand V. Dobrotivý: proč byl posledním korunovaným králem</title>
-      <link>https://www.mincmistr.cz/blog/ferdinand-v--dobrotivy--posledni-korunovany-cesky-kral/</link>
-      <guid isPermaLink="true">https://www.mincmistr.cz/blog/ferdinand-v--dobrotivy--posledni-korunovany-cesky-kral/</guid>
-      <pubDate>Sun, 31 May 2026 20:03:27 +0000</pubDate>
-      <description><![CDATA[<img src="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_v._dobrotivy___posledni___korunovany___c__esky___kra__l.png" alt="" /><p>Praha, 7. září 1836. Katedrálou svatého Víta zní slavnostní zpěv, šlechta ve slavnostních oděvech sleduje starobylý obřad a na hlavu panovníka je vklá...</p>]]></description>
-      <enclosure url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_v._dobrotivy___posledni___korunovany___c__esky___kra__l.png" length="0" type="image/png" />
-      <media:content url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_v._dobrotivy___posledni___korunovany___c__esky___kra__l.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://cdn.myshoptet.com/usr/www.mincmistr.cz/user/articles/images/ferdinand_v._dobrotivy___posledni___korunovany___c__esky___kra__l.png" />
     </item>
   </channel>
 </rss>
